@@ -32,7 +32,8 @@ Most corrections are **rule-generated** from a large frequency corpus of real Ar
 - **Taa Marbouta → Haa:** only applied where (a) the noun stem is not itself a standalone word (reduces false hits like `فتحه` = "his opening" vs `فتحة` = "an opening") and (b) the corrected form is several times more frequent than the trigger in the corpus (drops rare junk like `مشابة`, keeping healthy pairs like `ساعة/ساعه`).
 - **Hamza-drop with `ال`:** the definite article + hamza (`الأ`, `الإ`, `الآ`) → plain `الا` pairs are kept only when the hamza form clearly dominates in frequency, which excludes alif-wasl words (`استجابة`, `اعتراف`) where the bare form is the correct spelling.
 
-The generator that produced this file lives in the source repository of this package (`scripts/gen.py`); this hub package ships only the generated dictionary. All matches use `word: true` where the trigger is a single word.
+The generator that produced this file lives in the [source repository](https://github.com/hosam00/misspell-ar) of this package ([`scripts/gen.py`](https://github.com/hosam00/misspell-ar/blob/main/scripts/gen.py)).
+This hub package ships only the generated dictionary. All matches use `word: true` where the trigger is a single word.
 
 ## 🛠️ Usage
 
