@@ -1,49 +1,65 @@
-# Hub
+# Espanso Arabic Typos (misspell-ar)
 
-The official Espanso's package repository
+An official [Espanso](https://espanso.org/) package designed to automatically fix common Arabic spelling and grammar mistakes on the fly, saving you time and ensuring professional text formatting.
 
-See [the website](https://hub.espanso.org/), and the docs containing [additional information on Packages](https://espanso.org/docs/packages/basics/)
+Unlike standard spell-checkers that require you to click and correct, `misspell-ar` operates instantly in the background, auto-correcting your text the millisecond you press the spacebar.
 
-## Review (Contributing new/update packages)
+## 🚀 Installation
 
-To review packages and merge policies, we met in Discord in our monthly meeting and talked about the subject. This is what we agreed that would be a in-between solution.
+Make sure you have Espanso installed on your system. Then, open your terminal and run the following command:
 
-To be clear about the implications of using scripts in packages. We need to double check malicious or misinterpreted packages, so they don't cause damage (at least not permanent) in the point of reviewing PR. For example, nobody would want to have a trigger `a` that launches a command `rm -rf /`. So, in order to prevent it from happening:
+    espanso install misspell-ar
+    espanso restart
 
-- we have a CI that does some easy ground checks
-- we double check every PR with a maintainer, just to be sure no mistakes are made
-- we don't merge anything we don't understand
-- we possibly reject packages that cause permanent damage to the system to prevent users of that packages to mistakenly cause trouble on their pcs.
-- depending in a case by case scenario, we might allow to accept removing files in certain folders, for example `/tmp/`
-- even if the package does not contain scripts, it needs a human reviewer nonetheless: it might have content that we don't want to be part of distributing, such as offensive/hateful language or images
+## ✨ Features & Corrections
 
-The process of creating this review policy can be tracked in [#98](https://github.com/espanso/hub/issues/98)
+This dictionary targets frequent Arabic typing errors. It avoids the most dangerous context-dependent cases, but a small curated subset still relies on typical usage — when in doubt, review your text.
 
-## Run the package validation locally
+Currently, the package includes **6,000+ corrections** covering:
 
-Sometimes it's useful to run the validation process locally. To do so, you have
-to make the following steps:
+* **Taa Marbouta & Haa (التاء المربوطة والهاء):** Fixes common mix-ups (e.g., `ساعه` → `ساعة`, `لغه` → `لغة`, `الهضبه` → `الهضبة`).
+* **Hamza on Alif (الهمزات):** Corrects missing or misplaced Hamzas on Alif (`أ`, `إ`, `آ`), including words with the definite article (e.g., `الاصغر` → `الأصغر`, `الامارات` → `الإمارات`, `انت` → `أنت`, `اخر` → `آخر`).
+* **Tanween (التنوين):** Converts false Noun endings into proper Tanween (e.g., `شكرا` → `شكراً`, `دائما` → `دائماً`, `معا` → `معاً`).
+* **Common Religious Phrases:** Ensures respectful and grammatically correct formatting of common phrases (e.g., `انشاء الله` → `إن شاء الله`, `اللهم صلي` → `اللهم صلِّ`, `الحمدلله` → `الحمد لله`).
+* **ضاad / Zhaa (ض/ظ):** Corrects common mix-ups (e.g., `ضهر` → `ظهر`, `ضلم` → `ظلم`, `عضم` → `عظم`).
+* **Alif Maqsura (الألف المقصورة):** Fixes `ى`/`ي` ending mistakes (e.g., `عيسي` → `عيسى`, `مصطفي` → `مصطفى`).
+* **Other Common Typos:** Separates merged phrases, restores mid-word Hamzas, and more (e.g., `تسائل` → `تساؤل`, `هاذا` → `هذا`, `لاكن` → `لكن`).
 
-- have python 3.12 installed and make an environment in your local folder. We
-use [`uv`](https://github.com/astral-sh/uv) often, and if you don't know it yet
-, you should!
+### How it's built
 
-```bash
-uv venv --python 3.12
-```
+Most corrections are **rule-generated** from a large frequency corpus of real Arabic text using conservative, meaning-preserving rules designed to avoid colliding with valid words:
 
-- install the `pyyaml` dependency
+- **Taa Marbouta → Haa:** only applied where the noun stem is not itself a standalone word (reduces false hits like `فتحه` = "his opening" vs `فتحة` = "an opening").
+- **Hamza-drop with `ال`:** the definite article + hamza (`الأ`, `الإ`, `الآ`) is structurally unambiguous — no valid Arabic word starts with the bare `الا` combination, so these pairs are safe by construction.
 
-```bash
-uv pip install pyyaml
-```
+The generator (`scripts/gen.py`) is included so the dictionary is reproducible and auditable. All matches use `word: true` where the trigger is a single word.
 
-- run the `main.py` *from the root folder* (because the script uses `glob` to
-find what packages are in the `packages/` folder)
+## 🛠️ Usage
 
-```bash
-uv run .github/scripts/validate/main.py
-```
+There is no configuration required. Once installed and restarted, Espanso will quietly monitor your keystrokes. Just type normally in any application (browser, terminal, IDE, or chat app). If you type a known misspelling and press `Space` or `Enter`, it will instantly snap to the correct spelling.
 
-- wait until you have the results!
+## 🤝 Contributing
 
+Arabic is a rich and complex language, and this dictionary is always growing! If you notice a common typo that is missing, contributions are highly encouraged.
+
+To add a new word:
+1. Fork the [Espanso Hub repository](https://github.com/espanso/hub).
+2. Navigate to `packages/misspell-ar/`.
+3. Open the `package.yml` file for the latest version.
+4. Add your new match following this exact YAML format:
+   ```yaml
+     - trigger: "الكلمة_الخطأ"
+       replace: "الكلمة_الصحيحة"
+       word: true
+   ```
+5. Submit a Pull Request!
+
+*Note: Please ensure new additions are unambiguous and do not accidentally overwrite valid words.*
+
+## 📚 Attribution
+
+The rule-generated portion is derived from the [FrequencyWords](https://github.com/hermitdave/FrequencyWords) Arabic corpus (content licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)), which is itself derived from common open text sources (Wikipedia, OpenSubtitles, etc.).
+
+## 👨‍💻 Author
+
+Created and maintained by **Hossam Gamal** ([@hosam00](https://github.com/hosam00)).
