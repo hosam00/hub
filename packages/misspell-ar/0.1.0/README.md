@@ -15,7 +15,7 @@ Make sure you have Espanso installed on your system. Then, open your terminal an
 
 This dictionary targets frequent Arabic typing errors. It avoids the most dangerous context-dependent cases, but a small curated subset still relies on typical usage — when in doubt, review your text.
 
-Currently, the package includes **6,000+ corrections** covering:
+Currently, the package includes **4,950+ corrections** covering:
 
 * **Taa Marbouta & Haa (التاء المربوطة والهاء):** Fixes common mix-ups (e.g., `ساعه` → `ساعة`, `لغه` → `لغة`, `الهضبه` → `الهضبة`).
 * **Hamza on Alif (الهمزات):** Corrects missing or misplaced Hamzas on Alif (`أ`, `إ`, `آ`), including words with the definite article (e.g., `الاصغر` → `الأصغر`, `الامارات` → `الإمارات`, `انت` → `أنت`, `اخر` → `آخر`).
@@ -29,10 +29,10 @@ Currently, the package includes **6,000+ corrections** covering:
 
 Most corrections are **rule-generated** from a large frequency corpus of real Arabic text using conservative, meaning-preserving rules designed to avoid colliding with valid words:
 
-- **Taa Marbouta → Haa:** only applied where the noun stem is not itself a standalone word (reduces false hits like `فتحه` = "his opening" vs `فتحة` = "an opening").
-- **Hamza-drop with `ال`:** the definite article + hamza (`الأ`, `الإ`, `الآ`) is structurally unambiguous — no valid Arabic word starts with the bare `الا` combination, so these pairs are safe by construction.
+- **Taa Marbouta → Haa:** only applied where (a) the noun stem is not itself a standalone word (reduces false hits like `فتحه` = "his opening" vs `فتحة` = "an opening") and (b) the corrected form is several times more frequent than the trigger in the corpus (drops rare junk like `مشابة`, keeping healthy pairs like `ساعة/ساعه`).
+- **Hamza-drop with `ال`:** the definite article + hamza (`الأ`, `الإ`, `الآ`) → plain `الا` pairs are kept only when the hamza form clearly dominates in frequency, which excludes alif-wasl words (`استجابة`, `اعتراف`) where the bare form is the correct spelling.
 
-The generator (`scripts/gen.py`) is included so the dictionary is reproducible and auditable. All matches use `word: true` where the trigger is a single word.
+The generator that produced this file lives in the source repository of this package (`scripts/gen.py`); this hub package ships only the generated dictionary. All matches use `word: true` where the trigger is a single word.
 
 ## 🛠️ Usage
 

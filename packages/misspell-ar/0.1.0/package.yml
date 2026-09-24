@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/espanso/espanso/dev/schemas/match.schema.json
 #
 # misspell-ar: Arabic Typo Auto-Corrector
-# 6063 matches | rule-generated from FrequencyWords corpus (CC-BY-SA-4.0) + curated list
+# 4953 matches | rule-generated from FrequencyWords corpus (CC-BY-SA-4.0) + curated list
 #
 matches:
   - trigger: "آشعه"
@@ -13,9 +13,6 @@ matches:
   - trigger: "أبتسامه"
     replace: "أبتسامة"
     word: true
-  - trigger: "أتجاه"
-    replace: "أتجاة"
-    word: true
   - trigger: "أحجيه"
     replace: "أحجية"
     word: true
@@ -24,9 +21,6 @@ matches:
     word: true
   - trigger: "أربعمئه"
     replace: "أربعمئة"
-    word: true
-  - trigger: "أربعمائه"
-    replace: "أربعمائة"
     word: true
   - trigger: "أرجوحه"
     replace: "أرجوحة"
@@ -157,9 +151,6 @@ matches:
   - trigger: "إزاحه"
     replace: "إزاحة"
     word: true
-  - trigger: "إسائه"
-    replace: "إسائة"
-    word: true
   - trigger: "إستماره"
     replace: "إستمارة"
     word: true
@@ -174,9 +165,6 @@ matches:
     word: true
   - trigger: "إشبيليه"
     replace: "إشبيلية"
-    word: true
-  - trigger: "إضائه"
-    replace: "إضائة"
     word: true
   - trigger: "إضاعه"
     replace: "إضاعة"
@@ -252,9 +240,6 @@ matches:
     word: true
   - trigger: "ابيات"
     replace: "أبيات"
-    word: true
-  - trigger: "اتجاه"
-    replace: "اتجاة"
     word: true
   - trigger: "اثاث"
     replace: "أثاث"
@@ -343,17 +328,11 @@ matches:
   - trigger: "اذواق"
     replace: "أذواق"
     word: true
-  - trigger: "ارجوحه"
-    replace: "ارجوحة"
-    word: true
   - trigger: "ارقام"
     replace: "أرقام"
     word: true
   - trigger: "ارواح"
     replace: "أرواح"
-    word: true
-  - trigger: "ازمه"
-    replace: "ازمة"
     word: true
   - trigger: "ازياء"
     replace: "أزياء"
@@ -372,9 +351,6 @@ matches:
     word: true
   - trigger: "اسباب"
     replace: "أسباب"
-    word: true
-  - trigger: "اسبرطه"
-    replace: "اسبرطة"
     word: true
   - trigger: "اسبوعيا"
     replace: "أسبوعياً"
@@ -456,9 +432,6 @@ matches:
     word: true
   - trigger: "اصول"
     replace: "أصول"
-    word: true
-  - trigger: "اضحوكه"
-    replace: "اضحوكة"
     word: true
   - trigger: "اضرار"
     replace: "أضرار"
@@ -559,9 +532,6 @@ matches:
   - trigger: "اكيدا"
     replace: "أكيداً"
     word: true
-  - trigger: "الآداه"
-    replace: "الآداة"
-    word: true
   - trigger: "الآشعه"
     replace: "الآشعة"
     word: true
@@ -570,9 +540,6 @@ matches:
     word: true
   - trigger: "الأبخره"
     replace: "الأبخرة"
-    word: true
-  - trigger: "الأتجاه"
-    replace: "الأتجاة"
     word: true
   - trigger: "الأتربه"
     replace: "الأتربة"
@@ -835,177 +802,6 @@ matches:
   - trigger: "الأيقونه"
     replace: "الأيقونة"
     word: true
-  - trigger: "الإباده"
-    replace: "الإبادة"
-    word: true
-  - trigger: "الإباضه"
-    replace: "الإباضة"
-    word: true
-  - trigger: "الإتجاه"
-    replace: "الإتجاة"
-    word: true
-  - trigger: "الإتفاقيه"
-    replace: "الإتفاقية"
-    word: true
-  - trigger: "الإجازه"
-    replace: "الإجازة"
-    word: true
-  - trigger: "الإحاطه"
-    replace: "الإحاطة"
-    word: true
-  - trigger: "الإحاله"
-    replace: "الإحالة"
-    word: true
-  - trigger: "الإحتماليه"
-    replace: "الإحتمالية"
-    word: true
-  - trigger: "الإخافه"
-    replace: "الإخافة"
-    word: true
-  - trigger: "الإخوه"
-    replace: "الإخوة"
-    word: true
-  - trigger: "الإداره"
-    replace: "الإدارة"
-    word: true
-  - trigger: "الإدانه"
-    replace: "الإدانة"
-    word: true
-  - trigger: "الإدراه"
-    replace: "الإدراة"
-    word: true
-  - trigger: "الإذاعه"
-    replace: "الإذاعة"
-    word: true
-  - trigger: "الإراده"
-    replace: "الإرادة"
-    word: true
-  - trigger: "الإزاحه"
-    replace: "الإزاحة"
-    word: true
-  - trigger: "الإزاله"
-    replace: "الإزالة"
-    word: true
-  - trigger: "الإستداره"
-    replace: "الإستدارة"
-    word: true
-  - trigger: "الإستراحه"
-    replace: "الإستراحة"
-    word: true
-  - trigger: "الإستشاره"
-    replace: "الإستشارة"
-    word: true
-  - trigger: "الإستضافه"
-    replace: "الإستضافة"
-    word: true
-  - trigger: "الإستعاره"
-    replace: "الإستعارة"
-    word: true
-  - trigger: "الإستعانه"
-    replace: "الإستعانة"
-    word: true
-  - trigger: "الإستغاثه"
-    replace: "الإستغاثة"
-    word: true
-  - trigger: "الإستفاده"
-    replace: "الإستفادة"
-    word: true
-  - trigger: "الإستقامه"
-    replace: "الإستقامة"
-    word: true
-  - trigger: "الإستمراريه"
-    replace: "الإستمرارية"
-    word: true
-  - trigger: "الإستهانه"
-    replace: "الإستهانة"
-    word: true
-  - trigger: "الإسطوانه"
-    replace: "الإسطوانة"
-    word: true
-  - trigger: "الإسطوره"
-    replace: "الإسطورة"
-    word: true
-  - trigger: "الإسكندريه"
-    replace: "الإسكندرية"
-    word: true
-  - trigger: "الإشاده"
-    replace: "الإشادة"
-    word: true
-  - trigger: "الإصابه"
-    replace: "الإصابة"
-    word: true
-  - trigger: "الإضائه"
-    replace: "الإضائة"
-    word: true
-  - trigger: "الإضافه"
-    replace: "الإضافة"
-    word: true
-  - trigger: "الإطاحه"
-    replace: "الإطاحة"
-    word: true
-  - trigger: "الإطاله"
-    replace: "الإطالة"
-    word: true
-  - trigger: "الإعاده"
-    replace: "الإعادة"
-    word: true
-  - trigger: "الإعاره"
-    replace: "الإعارة"
-    word: true
-  - trigger: "الإعاقه"
-    replace: "الإعاقة"
-    word: true
-  - trigger: "الإعانه"
-    replace: "الإعانة"
-    word: true
-  - trigger: "الإعجوبه"
-    replace: "الإعجوبة"
-    word: true
-  - trigger: "الإغاثه"
-    replace: "الإغاثة"
-    word: true
-  - trigger: "الإغاره"
-    replace: "الإغارة"
-    word: true
-  - trigger: "الإغنيه"
-    replace: "الإغنية"
-    word: true
-  - trigger: "الإفاده"
-    replace: "الإفادة"
-    word: true
-  - trigger: "الإقاله"
-    replace: "الإقالة"
-    word: true
-  - trigger: "الإقامه"
-    replace: "الإقامة"
-    word: true
-  - trigger: "الإكراميه"
-    replace: "الإكرامية"
-    word: true
-  - trigger: "الإمرأه"
-    replace: "الإمرأة"
-    word: true
-  - trigger: "الإمراه"
-    replace: "الإمراة"
-    word: true
-  - trigger: "الإمكانيه"
-    replace: "الإمكانية"
-    word: true
-  - trigger: "الإهانه"
-    replace: "الإهانة"
-    word: true
-  - trigger: "الائتمان"
-    replace: "الإئتمان"
-    word: true
-  - trigger: "الائتماني"
-    replace: "الإئتماني"
-    word: true
-  - trigger: "الائتمانية"
-    replace: "الإئتمانية"
-    word: true
-  - trigger: "الائتمانيه"
-    replace: "الإئتمانيه"
-    word: true
   - trigger: "الائحه"
     replace: "الائحة"
     word: true
@@ -1014,9 +810,6 @@ matches:
     word: true
   - trigger: "الاباء"
     replace: "الآباء"
-    word: true
-  - trigger: "الاباتشى"
-    replace: "الأباتشى"
     word: true
   - trigger: "الاباتشي"
     replace: "الأباتشي"
@@ -1029,12 +822,6 @@ matches:
     word: true
   - trigger: "الاباحيات"
     replace: "الإباحيات"
-    word: true
-  - trigger: "الاباحية"
-    replace: "الإباحية"
-    word: true
-  - trigger: "الاباحيه"
-    replace: "الإباحيه"
     word: true
   - trigger: "الابادة"
     replace: "الإبادة"
@@ -1059,39 +846,6 @@ matches:
     word: true
   - trigger: "الابانة"
     replace: "الإبانة"
-    word: true
-  - trigger: "الابتدائي"
-    replace: "الإبتدائي"
-    word: true
-  - trigger: "الابتدائية"
-    replace: "الإبتدائية"
-    word: true
-  - trigger: "الابتذال"
-    replace: "الإبتذال"
-    word: true
-  - trigger: "الابتزاز"
-    replace: "الإبتزاز"
-    word: true
-  - trigger: "الابتسام"
-    replace: "الإبتسام"
-    word: true
-  - trigger: "الابتسامات"
-    replace: "الإبتسامات"
-    word: true
-  - trigger: "الابتسامة"
-    replace: "الإبتسامة"
-    word: true
-  - trigger: "الابتسامه"
-    replace: "الإبتسامه"
-    word: true
-  - trigger: "الابتعاد"
-    replace: "الإبتعاد"
-    word: true
-  - trigger: "الابتكار"
-    replace: "الإبتكار"
-    word: true
-  - trigger: "الابتهاج"
-    replace: "الإبتهاج"
     word: true
   - trigger: "الابجدي"
     replace: "الأبجدي"
@@ -1123,9 +877,6 @@ matches:
   - trigger: "الابدان"
     replace: "الأبدان"
     word: true
-  - trigger: "الابدى"
-    replace: "الأبدى"
-    word: true
   - trigger: "الابدي"
     replace: "الأبدي"
     word: true
@@ -1134,9 +885,6 @@ matches:
     word: true
   - trigger: "الابدين"
     replace: "الآبدين"
-    word: true
-  - trigger: "الابديه"
-    replace: "الأبديه"
     word: true
   - trigger: "الابر"
     replace: "الإبر"
@@ -1162,9 +910,6 @@ matches:
   - trigger: "الابرع"
     replace: "الأبرع"
     word: true
-  - trigger: "الابره"
-    replace: "الإبره"
-    word: true
   - trigger: "الابرياء"
     replace: "الأبرياء"
     word: true
@@ -1179,12 +924,6 @@ matches:
     word: true
   - trigger: "الابصار"
     replace: "الإبصار"
-    word: true
-  - trigger: "الابط"
-    replace: "الإبط"
-    word: true
-  - trigger: "الابطاء"
-    replace: "الإبطاء"
     word: true
   - trigger: "الابطال"
     replace: "الأبطال"
@@ -1210,23 +949,11 @@ matches:
   - trigger: "الابلاغ"
     replace: "الإبلاغ"
     word: true
-  - trigger: "الابلة"
-    replace: "الأبلة"
-    word: true
   - trigger: "الابله"
     replace: "الأبله"
     word: true
-  - trigger: "الابن"
-    replace: "الإبن"
-    word: true
   - trigger: "الابناء"
     replace: "الأبناء"
-    word: true
-  - trigger: "الابنة"
-    replace: "الإبنة"
-    word: true
-  - trigger: "الابنه"
-    replace: "الإبنه"
     word: true
   - trigger: "الابنوس"
     replace: "الأبنوس"
@@ -1237,17 +964,11 @@ matches:
   - trigger: "الابهار"
     replace: "الإبهار"
     word: true
-  - trigger: "الابهام"
-    replace: "الإبهام"
-    word: true
   - trigger: "الابهر"
     replace: "الأبهر"
     word: true
   - trigger: "الابواب"
     replace: "الأبواب"
-    word: true
-  - trigger: "الابواغ"
-    replace: "الأبواغ"
     word: true
   - trigger: "الابواق"
     replace: "الأبواق"
@@ -1285,38 +1006,11 @@ matches:
   - trigger: "الابينفرين"
     replace: "الإبينفرين"
     word: true
-  - trigger: "الات"
-    replace: "الآت"
-    word: true
   - trigger: "الاتاريين"
     replace: "الآتاريين"
     word: true
   - trigger: "الاتباع"
     replace: "الأتباع"
-    word: true
-  - trigger: "الاتجاة"
-    replace: "الإتجاة"
-    word: true
-  - trigger: "الاتجار"
-    replace: "الإتجار"
-    word: true
-  - trigger: "الاتجاه"
-    replace: "الاتجاة"
-    word: true
-  - trigger: "الاتجاهات"
-    replace: "الإتجاهات"
-    word: true
-  - trigger: "الاتجاهين"
-    replace: "الإتجاهين"
-    word: true
-  - trigger: "الاتحاد"
-    replace: "الإتحاد"
-    word: true
-  - trigger: "الاتحادي"
-    replace: "الإتحادي"
-    word: true
-  - trigger: "الاتحادية"
-    replace: "الإتحادية"
     word: true
   - trigger: "الاتحاديون"
     replace: "الإتحاديون"
@@ -1333,35 +1027,11 @@ matches:
   - trigger: "الاتروبين"
     replace: "الأتروبين"
     word: true
-  - trigger: "الاتريين"
-    replace: "الأتريين"
-    word: true
-  - trigger: "الاتزان"
-    replace: "الإتزان"
-    word: true
-  - trigger: "الاتصال"
-    replace: "الإتصال"
-    word: true
-  - trigger: "الاتصالات"
-    replace: "الإتصالات"
-    word: true
   - trigger: "الاتصلات"
     replace: "الإتصلات"
     word: true
   - trigger: "الاتعاب"
     replace: "الأتعاب"
-    word: true
-  - trigger: "الاتفاق"
-    replace: "الإتفاق"
-    word: true
-  - trigger: "الاتفاقات"
-    replace: "الإتفاقات"
-    word: true
-  - trigger: "الاتفاقيات"
-    replace: "الإتفاقيات"
-    word: true
-  - trigger: "الاتفاقية"
-    replace: "الإتفاقية"
     word: true
   - trigger: "الاتفاقيه"
     replace: "الاتفاقية"
@@ -1374,21 +1044,6 @@ matches:
     word: true
   - trigger: "الاتمانية"
     replace: "الإتمانية"
-    word: true
-  - trigger: "الاتهام"
-    replace: "الإتهام"
-    word: true
-  - trigger: "الاتهامات"
-    replace: "الإتهامات"
-    word: true
-  - trigger: "الاتوبيس"
-    replace: "الأتوبيس"
-    word: true
-  - trigger: "الاتى"
-    replace: "الآتى"
-    word: true
-  - trigger: "الاتي"
-    replace: "الآتي"
     word: true
   - trigger: "الاتيان"
     replace: "الإتيان"
@@ -1405,17 +1060,11 @@ matches:
   - trigger: "الاثارة"
     replace: "الإثارة"
     word: true
-  - trigger: "الاثاره"
-    replace: "الإثاره"
-    word: true
   - trigger: "الاثام"
     replace: "الآثام"
     word: true
   - trigger: "الاثبات"
     replace: "الإثبات"
-    word: true
-  - trigger: "الاثباتات"
-    replace: "الإثباتات"
     word: true
   - trigger: "الاثداء"
     replace: "الأثداء"
@@ -1456,35 +1105,11 @@ matches:
   - trigger: "الاثمين"
     replace: "الآثمين"
     word: true
-  - trigger: "الاثنا"
-    replace: "الإثنا"
-    word: true
   - trigger: "الاثناء"
     replace: "الأثناء"
     word: true
-  - trigger: "الاثنان"
-    replace: "الإثنان"
-    word: true
-  - trigger: "الاثنتان"
-    replace: "الإثنتان"
-    word: true
-  - trigger: "الاثنتين"
-    replace: "الإثنتين"
-    word: true
-  - trigger: "الاثنى"
-    replace: "الإثنى"
-    word: true
-  - trigger: "الاثني"
-    replace: "الإثني"
-    word: true
-  - trigger: "الاثنين"
-    replace: "الإثنين"
-    word: true
   - trigger: "الاثواب"
     replace: "الأثواب"
-    word: true
-  - trigger: "الاثير"
-    replace: "الأثير"
     word: true
   - trigger: "الاجابات"
     replace: "الإجابات"
@@ -1494,15 +1119,6 @@ matches:
     word: true
   - trigger: "الاجابه"
     replace: "الاجابة"
-    word: true
-  - trigger: "الاجار"
-    replace: "الإجار"
-    word: true
-  - trigger: "الاجازات"
-    replace: "الإجازات"
-    word: true
-  - trigger: "الاجازة"
-    replace: "الإجازة"
     word: true
   - trigger: "الاجازه"
     replace: "الاجازة"
@@ -1525,30 +1141,6 @@ matches:
   - trigger: "الاجبان"
     replace: "الأجبان"
     word: true
-  - trigger: "الاجتماع"
-    replace: "الإجتماع"
-    word: true
-  - trigger: "الاجتماعات"
-    replace: "الإجتماعات"
-    word: true
-  - trigger: "الاجتماعى"
-    replace: "الإجتماعى"
-    word: true
-  - trigger: "الاجتماعي"
-    replace: "الإجتماعي"
-    word: true
-  - trigger: "الاجتماعية"
-    replace: "الإجتماعية"
-    word: true
-  - trigger: "الاجتماعيه"
-    replace: "الإجتماعيه"
-    word: true
-  - trigger: "الاجتهاد"
-    replace: "الإجتهاد"
-    word: true
-  - trigger: "الاجتياح"
-    replace: "الإجتياح"
-    word: true
   - trigger: "الاجحاف"
     replace: "الإجحاف"
     word: true
@@ -1567,9 +1159,6 @@ matches:
   - trigger: "الاجراءات"
     replace: "الإجراءات"
     word: true
-  - trigger: "الاجرائات"
-    replace: "الإجرائات"
-    word: true
   - trigger: "الاجرائية"
     replace: "الإجرائية"
     word: true
@@ -1579,12 +1168,6 @@ matches:
   - trigger: "الاجرام"
     replace: "الإجرام"
     word: true
-  - trigger: "الاجرامى"
-    replace: "الإجرامى"
-    word: true
-  - trigger: "الاجرامي"
-    replace: "الإجرامي"
-    word: true
   - trigger: "الاجرامية"
     replace: "الإجرامية"
     word: true
@@ -1593,9 +1176,6 @@ matches:
     word: true
   - trigger: "الاجرة"
     replace: "الأجرة"
-    word: true
-  - trigger: "الاجره"
-    replace: "الأجره"
     word: true
   - trigger: "الاجزاء"
     replace: "الأجزاء"
@@ -1633,26 +1213,17 @@ matches:
   - trigger: "الاجناس"
     replace: "الأجناس"
     word: true
-  - trigger: "الاجنبى"
-    replace: "الأجنبى"
-    word: true
   - trigger: "الاجنبي"
     replace: "الأجنبي"
     word: true
   - trigger: "الاجنبية"
     replace: "الأجنبية"
     word: true
-  - trigger: "الاجنبيه"
-    replace: "الأجنبيه"
-    word: true
   - trigger: "الاجنة"
     replace: "الأجنة"
     word: true
   - trigger: "الاجنحة"
     replace: "الأجنحة"
-    word: true
-  - trigger: "الاجنحه"
-    replace: "الأجنحه"
     word: true
   - trigger: "الاجندة"
     replace: "الأجندة"
@@ -1672,9 +1243,6 @@ matches:
   - trigger: "الاجهزة"
     replace: "الأجهزة"
     word: true
-  - trigger: "الاجهزه"
-    replace: "الاجهزة"
-    word: true
   - trigger: "الاجواء"
     replace: "الأجواء"
     word: true
@@ -1689,9 +1257,6 @@ matches:
     word: true
   - trigger: "الاجور"
     replace: "الأجور"
-    word: true
-  - trigger: "الاجوف"
-    replace: "الأجوف"
     word: true
   - trigger: "الاجيال"
     replace: "الأجيال"
@@ -1723,9 +1288,6 @@ matches:
   - trigger: "الاحافير"
     replace: "الأحافير"
     word: true
-  - trigger: "الاحالة"
-    replace: "الإحالة"
-    word: true
   - trigger: "الاحباء"
     replace: "الأحباء"
     word: true
@@ -1740,108 +1302,6 @@ matches:
     word: true
   - trigger: "الاحبة"
     replace: "الأحبة"
-    word: true
-  - trigger: "الاحتباس"
-    replace: "الإحتباس"
-    word: true
-  - trigger: "الاحتجاج"
-    replace: "الإحتجاج"
-    word: true
-  - trigger: "الاحتجاجات"
-    replace: "الإحتجاجات"
-    word: true
-  - trigger: "الاحتجاز"
-    replace: "الإحتجاز"
-    word: true
-  - trigger: "الاحتراف"
-    replace: "الإحتراف"
-    word: true
-  - trigger: "الاحترافي"
-    replace: "الإحترافي"
-    word: true
-  - trigger: "الاحترافية"
-    replace: "الإحترافية"
-    word: true
-  - trigger: "الاحتراق"
-    replace: "الإحتراق"
-    word: true
-  - trigger: "الاحترام"
-    replace: "الإحترام"
-    word: true
-  - trigger: "الاحتشام"
-    replace: "الإحتشام"
-    word: true
-  - trigger: "الاحتضار"
-    replace: "الإحتضار"
-    word: true
-  - trigger: "الاحتضان"
-    replace: "الإحتضان"
-    word: true
-  - trigger: "الاحتفاظ"
-    replace: "الإحتفاظ"
-    word: true
-  - trigger: "الاحتفال"
-    replace: "الإحتفال"
-    word: true
-  - trigger: "الاحتفالات"
-    replace: "الإحتفالات"
-    word: true
-  - trigger: "الاحتفالية"
-    replace: "الإحتفالية"
-    word: true
-  - trigger: "الاحتقار"
-    replace: "الإحتقار"
-    word: true
-  - trigger: "الاحتكار"
-    replace: "الإحتكار"
-    word: true
-  - trigger: "الاحتكاك"
-    replace: "الإحتكاك"
-    word: true
-  - trigger: "الاحتلال"
-    replace: "الإحتلال"
-    word: true
-  - trigger: "الاحتماء"
-    replace: "الإحتماء"
-    word: true
-  - trigger: "الاحتمال"
-    replace: "الإحتمال"
-    word: true
-  - trigger: "الاحتمالات"
-    replace: "الإحتمالات"
-    word: true
-  - trigger: "الاحتمالية"
-    replace: "الإحتمالية"
-    word: true
-  - trigger: "الاحتواء"
-    replace: "الإحتواء"
-    word: true
-  - trigger: "الاحتياج"
-    replace: "الإحتياج"
-    word: true
-  - trigger: "الاحتياجات"
-    replace: "الإحتياجات"
-    word: true
-  - trigger: "الاحتياط"
-    replace: "الإحتياط"
-    word: true
-  - trigger: "الاحتياطات"
-    replace: "الإحتياطات"
-    word: true
-  - trigger: "الاحتياطى"
-    replace: "الإحتياطى"
-    word: true
-  - trigger: "الاحتياطي"
-    replace: "الإحتياطي"
-    word: true
-  - trigger: "الاحتياطية"
-    replace: "الإحتياطية"
-    word: true
-  - trigger: "الاحتياطيه"
-    replace: "الإحتياطيه"
-    word: true
-  - trigger: "الاحتيال"
-    replace: "الإحتيال"
     word: true
   - trigger: "الاحجار"
     replace: "الأحجار"
@@ -1864,9 +1324,6 @@ matches:
   - trigger: "الاحداث"
     replace: "الأحداث"
     word: true
-  - trigger: "الاحداثيات"
-    replace: "الإحداثيات"
-    word: true
   - trigger: "الاحدب"
     replace: "الأحدب"
     word: true
@@ -1882,17 +1339,11 @@ matches:
   - trigger: "الاحذيه"
     replace: "الاحذية"
     word: true
-  - trigger: "الاحراج"
-    replace: "الإحراج"
-    word: true
   - trigger: "الاحرار"
     replace: "الأحرار"
     word: true
   - trigger: "الاحراش"
     replace: "الأحراش"
-    word: true
-  - trigger: "الاحراق"
-    replace: "الإحراق"
     word: true
   - trigger: "الاحرف"
     replace: "الأحرف"
@@ -1900,26 +1351,14 @@ matches:
   - trigger: "الاحرى"
     replace: "الأحرى"
     word: true
-  - trigger: "الاحزاب"
-    replace: "الأحزاب"
-    word: true
   - trigger: "الاحزان"
     replace: "الأحزان"
     word: true
   - trigger: "الاحزمة"
     replace: "الأحزمة"
     word: true
-  - trigger: "الاحزمه"
-    replace: "الاحزمة"
-    word: true
-  - trigger: "الاحساس"
-    replace: "الإحساس"
-    word: true
   - trigger: "الاحسان"
     replace: "الإحسان"
-    word: true
-  - trigger: "الاحسن"
-    replace: "الأحسن"
     word: true
   - trigger: "الاحشاء"
     replace: "الأحشاء"
@@ -1932,9 +1371,6 @@ matches:
     word: true
   - trigger: "الاحصائي"
     replace: "الإحصائي"
-    word: true
-  - trigger: "الاحصائيات"
-    replace: "الإحصائيات"
     word: true
   - trigger: "الاحصائية"
     replace: "الإحصائية"
@@ -1972,9 +1408,6 @@ matches:
   - trigger: "الاحلى"
     replace: "الأحلى"
     word: true
-  - trigger: "الاحماء"
-    replace: "الإحماء"
-    word: true
   - trigger: "الاحماض"
     replace: "الأحماض"
     word: true
@@ -1983,9 +1416,6 @@ matches:
     word: true
   - trigger: "الاحمر"
     replace: "الأحمر"
-    word: true
-  - trigger: "الاحمرار"
-    replace: "الإحمرار"
     word: true
   - trigger: "الاحمق"
     replace: "الأحمق"
@@ -2038,59 +1468,8 @@ matches:
   - trigger: "الاختان"
     replace: "الأختان"
     word: true
-  - trigger: "الاختباء"
-    replace: "الإختباء"
-    word: true
-  - trigger: "الاختبار"
-    replace: "الإختبار"
-    word: true
-  - trigger: "الاختبارات"
-    replace: "الإختبارات"
-    word: true
   - trigger: "الاختباري"
     replace: "الإختباري"
-    word: true
-  - trigger: "الاختراع"
-    replace: "الإختراع"
-    word: true
-  - trigger: "الاختراعات"
-    replace: "الإختراعات"
-    word: true
-  - trigger: "الاختراق"
-    replace: "الإختراق"
-    word: true
-  - trigger: "الاختصار"
-    replace: "الإختصار"
-    word: true
-  - trigger: "الاختطاف"
-    replace: "الإختطاف"
-    word: true
-  - trigger: "الاختفاء"
-    replace: "الإختفاء"
-    word: true
-  - trigger: "الاختلاس"
-    replace: "الإختلاس"
-    word: true
-  - trigger: "الاختلاط"
-    replace: "الإختلاط"
-    word: true
-  - trigger: "الاختلاف"
-    replace: "الإختلاف"
-    word: true
-  - trigger: "الاختلافات"
-    replace: "الإختلافات"
-    word: true
-  - trigger: "الاختلال"
-    replace: "الإختلال"
-    word: true
-  - trigger: "الاختناق"
-    replace: "الإختناق"
-    word: true
-  - trigger: "الاختيار"
-    replace: "الإختيار"
-    word: true
-  - trigger: "الاختيارات"
-    replace: "الإختيارات"
     word: true
   - trigger: "الاختية"
     replace: "الأختية"
@@ -2116,9 +1495,6 @@ matches:
   - trigger: "الاخرة"
     replace: "الآخرة"
     word: true
-  - trigger: "الاخرتين"
-    replace: "الأخرتين"
-    word: true
   - trigger: "الاخرس"
     replace: "الأخرس"
     word: true
@@ -2131,17 +1507,11 @@ matches:
   - trigger: "الاخرى"
     replace: "الأخرى"
     word: true
-  - trigger: "الاخري"
-    replace: "الأخري"
-    word: true
   - trigger: "الاخريات"
     replace: "الأخريات"
     word: true
   - trigger: "الاخرين"
     replace: "الآخرين"
-    word: true
-  - trigger: "الاخريين"
-    replace: "الأخريين"
     word: true
   - trigger: "الاخشاب"
     replace: "الأخشاب"
@@ -2160,9 +1530,6 @@ matches:
     word: true
   - trigger: "الاخصائيين"
     replace: "الأخصائيين"
-    word: true
-  - trigger: "الاخصاب"
-    replace: "الإخصاب"
     word: true
   - trigger: "الاخضاع"
     replace: "الإخضاع"
@@ -2197,9 +1564,6 @@ matches:
   - trigger: "الاخلاء"
     replace: "الإخلاء"
     word: true
-  - trigger: "الاخلاص"
-    replace: "الإخلاص"
-    word: true
   - trigger: "الاخلاق"
     replace: "الأخلاق"
     word: true
@@ -2220,12 +1584,6 @@ matches:
     word: true
   - trigger: "الاخوان"
     replace: "الأخوان"
-    word: true
-  - trigger: "الاخوة"
-    replace: "الأخوة"
-    word: true
-  - trigger: "الاخوه"
-    replace: "الأخوه"
     word: true
   - trigger: "الاخوي"
     replace: "الأخوي"
@@ -2256,9 +1614,6 @@ matches:
     word: true
   - trigger: "الاخيرتين"
     replace: "الأخيرتين"
-    word: true
-  - trigger: "الاخيره"
-    replace: "الأخيره"
     word: true
   - trigger: "الاخيرون"
     replace: "الأخيرون"
@@ -2299,9 +1654,6 @@ matches:
   - trigger: "الادانة"
     replace: "الإدانة"
     word: true
-  - trigger: "الادانه"
-    replace: "الادانة"
-    word: true
   - trigger: "الاداه"
     replace: "الاداة"
     word: true
@@ -2317,17 +1669,11 @@ matches:
   - trigger: "الادبية"
     replace: "الأدبية"
     word: true
-  - trigger: "الادخار"
-    replace: "الإدخار"
-    word: true
   - trigger: "الادخال"
     replace: "الإدخال"
     word: true
   - trigger: "الادخنة"
     replace: "الأدخنة"
-    word: true
-  - trigger: "الادراة"
-    replace: "الإدراة"
     word: true
   - trigger: "الادراج"
     replace: "الأدراج"
@@ -2338,20 +1684,11 @@ matches:
   - trigger: "الادراكية"
     replace: "الإدراكية"
     word: true
-  - trigger: "الادرنالين"
-    replace: "الأدرنالين"
-    word: true
   - trigger: "الادرى"
     replace: "الأدرى"
     word: true
   - trigger: "الادرينالين"
     replace: "الأدرينالين"
-    word: true
-  - trigger: "الادعاء"
-    replace: "الإدعاء"
-    word: true
-  - trigger: "الادعاءات"
-    replace: "الإدعاءات"
     word: true
   - trigger: "الادعية"
     replace: "الأدعية"
@@ -2394,9 +1731,6 @@ matches:
     word: true
   - trigger: "الادنى"
     replace: "الأدنى"
-    word: true
-  - trigger: "الادني"
-    replace: "الأدني"
     word: true
   - trigger: "الادوات"
     replace: "الأدوات"
@@ -2446,9 +1780,6 @@ matches:
   - trigger: "الاذلال"
     replace: "الإذلال"
     word: true
-  - trigger: "الاذن"
-    replace: "الأذن"
-    word: true
   - trigger: "الاذنان"
     replace: "الأذنان"
     word: true
@@ -2464,17 +1795,11 @@ matches:
   - trigger: "الاذى"
     replace: "الأذى"
     word: true
-  - trigger: "الاذي"
-    replace: "الأذي"
-    word: true
   - trigger: "الاذية"
     replace: "الأذية"
     word: true
   - trigger: "الاذين"
     replace: "الأذين"
-    word: true
-  - trigger: "الار"
-    replace: "الآر"
     word: true
   - trigger: "الاراء"
     replace: "الآراء"
@@ -2487,12 +1812,6 @@ matches:
     word: true
   - trigger: "الارادة"
     replace: "الإرادة"
-    word: true
-  - trigger: "الاراده"
-    replace: "الارادة"
-    word: true
-  - trigger: "الاراضى"
-    replace: "الأراضى"
     word: true
   - trigger: "الاراضي"
     replace: "الأراضي"
@@ -2509,14 +1828,8 @@ matches:
   - trigger: "الارباع"
     replace: "الأرباع"
     word: true
-  - trigger: "الارباك"
-    replace: "الإرباك"
-    word: true
   - trigger: "الاربطة"
     replace: "الأربطة"
-    word: true
-  - trigger: "الاربطه"
-    replace: "الاربطة"
     word: true
   - trigger: "الاربع"
     replace: "الأربع"
@@ -2527,12 +1840,6 @@ matches:
   - trigger: "الاربعة"
     replace: "الأربعة"
     word: true
-  - trigger: "الاربعه"
-    replace: "الأربعه"
-    word: true
-  - trigger: "الاربعون"
-    replace: "الأربعون"
-    word: true
   - trigger: "الاربعين"
     replace: "الأربعين"
     word: true
@@ -2541,51 +1848,6 @@ matches:
     word: true
   - trigger: "الاربعينيات"
     replace: "الأربعينيات"
-    word: true
-  - trigger: "الارتباط"
-    replace: "الإرتباط"
-    word: true
-  - trigger: "الارتباطات"
-    replace: "الإرتباطات"
-    word: true
-  - trigger: "الارتباك"
-    replace: "الإرتباك"
-    word: true
-  - trigger: "الارتجاج"
-    replace: "الإرتجاج"
-    word: true
-  - trigger: "الارتجاف"
-    replace: "الإرتجاف"
-    word: true
-  - trigger: "الارتجال"
-    replace: "الإرتجال"
-    word: true
-  - trigger: "الارتداد"
-    replace: "الإرتداد"
-    word: true
-  - trigger: "الارتطام"
-    replace: "الإرتطام"
-    word: true
-  - trigger: "الارتعاش"
-    replace: "الإرتعاش"
-    word: true
-  - trigger: "الارتفاع"
-    replace: "الإرتفاع"
-    word: true
-  - trigger: "الارتفاعات"
-    replace: "الإرتفاعات"
-    word: true
-  - trigger: "الارتقاء"
-    replace: "الإرتقاء"
-    word: true
-  - trigger: "الارتكاز"
-    replace: "الإرتكاز"
-    word: true
-  - trigger: "الارتياب"
-    replace: "الإرتياب"
-    word: true
-  - trigger: "الارتياح"
-    replace: "الإرتياح"
     word: true
   - trigger: "الارث"
     replace: "الإرث"
@@ -2598,9 +1860,6 @@ matches:
     word: true
   - trigger: "الارجح"
     replace: "الأرجح"
-    word: true
-  - trigger: "الارجع"
-    replace: "الأرجع"
     word: true
   - trigger: "الارجل"
     replace: "الأرجل"
@@ -2674,9 +1933,6 @@ matches:
   - trigger: "الارصاد"
     replace: "الأرصاد"
     word: true
-  - trigger: "الارصدة"
-    replace: "الأرصدة"
-    word: true
   - trigger: "الارصفة"
     replace: "الأرصفة"
     word: true
@@ -2689,9 +1945,6 @@ matches:
   - trigger: "الارضاع"
     replace: "الإرضاع"
     word: true
-  - trigger: "الارضى"
-    replace: "الأرضى"
-    word: true
   - trigger: "الارضي"
     replace: "الأرضي"
     word: true
@@ -2700,9 +1953,6 @@ matches:
     word: true
   - trigger: "الارضية"
     replace: "الأرضية"
-    word: true
-  - trigger: "الارضيه"
-    replace: "الأرضيه"
     word: true
   - trigger: "الارضيون"
     replace: "الأرضيون"
@@ -2758,26 +2008,11 @@ matches:
   - trigger: "الارنبة"
     replace: "الأرنبة"
     word: true
-  - trigger: "الارهاب"
-    replace: "الإرهاب"
-    word: true
-  - trigger: "الارهابى"
-    replace: "الإرهابى"
-    word: true
   - trigger: "الارهابي"
     replace: "الإرهابي"
     word: true
   - trigger: "الارهابية"
     replace: "الإرهابية"
-    word: true
-  - trigger: "الارهابين"
-    replace: "الإرهابين"
-    word: true
-  - trigger: "الارهابيون"
-    replace: "الإرهابيون"
-    word: true
-  - trigger: "الارهابيين"
-    replace: "الإرهابيين"
     word: true
   - trigger: "الارهاق"
     replace: "الإرهاق"
@@ -2806,9 +2041,6 @@ matches:
   - trigger: "الاريكة"
     replace: "الأريكة"
     word: true
-  - trigger: "الاريكه"
-    replace: "الأريكه"
-    word: true
   - trigger: "الاريون"
     replace: "الآريون"
     word: true
@@ -2827,29 +2059,11 @@ matches:
   - trigger: "الازتك"
     replace: "الأزتك"
     word: true
-  - trigger: "الازتيك"
-    replace: "الأزتيك"
-    word: true
-  - trigger: "الازدحام"
-    replace: "الإزدحام"
-    word: true
-  - trigger: "الازدراء"
-    replace: "الإزدراء"
-    word: true
-  - trigger: "الازدهار"
-    replace: "الإزدهار"
-    word: true
-  - trigger: "الازدياد"
-    replace: "الإزدياد"
-    word: true
   - trigger: "الازرار"
     replace: "الأزرار"
     word: true
   - trigger: "الازرق"
     replace: "الأزرق"
-    word: true
-  - trigger: "الازعاج"
-    replace: "الإزعاج"
     word: true
   - trigger: "الازقة"
     replace: "الأزقة"
@@ -2872,9 +2086,6 @@ matches:
   - trigger: "الازمنة"
     replace: "الأزمنة"
     word: true
-  - trigger: "الازمه"
-    replace: "الأزمه"
-    word: true
   - trigger: "الازهار"
     replace: "الأزهار"
     word: true
@@ -2884,12 +2095,6 @@ matches:
   - trigger: "الازياء"
     replace: "الأزياء"
     word: true
-  - trigger: "الازيز"
-    replace: "الأزيز"
-    word: true
-  - trigger: "الاس"
-    replace: "الآس"
-    word: true
   - trigger: "الاسئلة"
     replace: "الأسئلة"
     word: true
@@ -2898,9 +2103,6 @@ matches:
     word: true
   - trigger: "الاساءة"
     replace: "الإساءة"
-    word: true
-  - trigger: "الاساءه"
-    replace: "الإساءه"
     word: true
   - trigger: "الاسابيع"
     replace: "الأسابيع"
@@ -2917,9 +2119,6 @@ matches:
   - trigger: "الاساسات"
     replace: "الأساسات"
     word: true
-  - trigger: "الاساسى"
-    replace: "الأساسى"
-    word: true
   - trigger: "الاساسي"
     replace: "الأساسي"
     word: true
@@ -2929,9 +2128,6 @@ matches:
   - trigger: "الاساسية"
     replace: "الأساسية"
     word: true
-  - trigger: "الاساسيه"
-    replace: "الأساسيه"
-    word: true
   - trigger: "الاساسيين"
     replace: "الأساسيين"
     word: true
@@ -2940,9 +2136,6 @@ matches:
     word: true
   - trigger: "الاساقفة"
     replace: "الأساقفة"
-    word: true
-  - trigger: "الاساقفه"
-    replace: "الأساقفه"
     word: true
   - trigger: "الاساليب"
     replace: "الأساليب"
@@ -2959,20 +2152,8 @@ matches:
   - trigger: "الاسبان"
     replace: "الإسبان"
     word: true
-  - trigger: "الاسبانى"
-    replace: "الأسبانى"
-    word: true
-  - trigger: "الاسباني"
-    replace: "الإسباني"
-    word: true
   - trigger: "الاسبانيات"
     replace: "الإسبانيات"
-    word: true
-  - trigger: "الاسبانية"
-    replace: "الإسبانية"
-    word: true
-  - trigger: "الاسبانيه"
-    replace: "الأسبانيه"
     word: true
   - trigger: "الاسبريسو"
     replace: "الإسبريسو"
@@ -2992,9 +2173,6 @@ matches:
   - trigger: "الاسبوع"
     replace: "الأسبوع"
     word: true
-  - trigger: "الاسبوعان"
-    replace: "الأسبوعان"
-    word: true
   - trigger: "الاسبوعي"
     replace: "الأسبوعي"
     word: true
@@ -3004,20 +2182,8 @@ matches:
   - trigger: "الاسبوعين"
     replace: "الأسبوعين"
     word: true
-  - trigger: "الاسبوعيه"
-    replace: "الأسبوعيه"
-    word: true
   - trigger: "الاسبيرين"
     replace: "الأسبيرين"
-    word: true
-  - trigger: "الاستئجار"
-    replace: "الإستئجار"
-    word: true
-  - trigger: "الاستئناف"
-    replace: "الإستئناف"
-    word: true
-  - trigger: "الاستاد"
-    replace: "الأستاد"
     word: true
   - trigger: "الاستاذ"
     replace: "الأستاذ"
@@ -3025,356 +2191,38 @@ matches:
   - trigger: "الاستاذة"
     replace: "الأستاذة"
     word: true
-  - trigger: "الاستبداد"
-    replace: "الإستبداد"
-    word: true
-  - trigger: "الاستبدال"
-    replace: "الإستبدال"
-    word: true
-  - trigger: "الاستثمار"
-    replace: "الإستثمار"
-    word: true
-  - trigger: "الاستثمارات"
-    replace: "الإستثمارات"
-    word: true
-  - trigger: "الاستثماري"
-    replace: "الإستثماري"
-    word: true
-  - trigger: "الاستثمارية"
-    replace: "الإستثمارية"
-    word: true
-  - trigger: "الاستثناء"
-    replace: "الإستثناء"
-    word: true
-  - trigger: "الاستثنائي"
-    replace: "الإستثنائي"
-    word: true
-  - trigger: "الاستثنائية"
-    replace: "الإستثنائية"
-    word: true
-  - trigger: "الاستجابة"
-    replace: "الإستجابة"
-    word: true
-  - trigger: "الاستجمام"
-    replace: "الإستجمام"
-    word: true
-  - trigger: "الاستجواب"
-    replace: "الإستجواب"
-    word: true
-  - trigger: "الاستجوابات"
-    replace: "الإستجوابات"
-    word: true
-  - trigger: "الاستحقاق"
-    replace: "الإستحقاق"
-    word: true
-  - trigger: "الاستحمام"
-    replace: "الإستحمام"
-    word: true
-  - trigger: "الاستحواذ"
-    replace: "الإستحواذ"
-    word: true
-  - trigger: "الاستخبارات"
-    replace: "الإستخبارات"
-    word: true
-  - trigger: "الاستخباراتية"
-    replace: "الإستخباراتية"
-    word: true
-  - trigger: "الاستخبارت"
-    replace: "الإستخبارت"
-    word: true
-  - trigger: "الاستخدام"
-    replace: "الإستخدام"
-    word: true
-  - trigger: "الاستخراج"
-    replace: "الإستخراج"
-    word: true
-  - trigger: "الاستخفاف"
-    replace: "الإستخفاف"
-    word: true
-  - trigger: "الاستخلاص"
-    replace: "الإستخلاص"
-    word: true
-  - trigger: "الاستدارة"
-    replace: "الإستدارة"
-    word: true
-  - trigger: "الاستدعاء"
-    replace: "الإستدعاء"
-    word: true
-  - trigger: "الاستدعاءات"
-    replace: "الإستدعاءات"
-    word: true
-  - trigger: "الاستديو"
-    replace: "الأستديو"
-    word: true
-  - trigger: "الاستراتيجي"
-    replace: "الإستراتيجي"
-    word: true
-  - trigger: "الاستراتيجيات"
-    replace: "الإستراتيجيات"
-    word: true
-  - trigger: "الاستراتيجية"
-    replace: "الإستراتيجية"
-    word: true
-  - trigger: "الاستراحة"
-    replace: "الإستراحة"
-    word: true
   - trigger: "الاستراحه"
     replace: "الاستراحة"
-    word: true
-  - trigger: "الاسترالي"
-    replace: "الأسترالي"
-    word: true
-  - trigger: "الاسترالية"
-    replace: "الأسترالية"
-    word: true
-  - trigger: "الاستراليين"
-    replace: "الأستراليين"
-    word: true
-  - trigger: "الاسترجاع"
-    replace: "الإسترجاع"
-    word: true
-  - trigger: "الاسترخاء"
-    replace: "الإسترخاء"
-    word: true
-  - trigger: "الاستروجين"
-    replace: "الإستروجين"
-    word: true
-  - trigger: "الاستسلام"
-    replace: "الإستسلام"
-    word: true
-  - trigger: "الاستشارات"
-    replace: "الإستشارات"
-    word: true
-  - trigger: "الاستشارة"
-    replace: "الإستشارة"
     word: true
   - trigger: "الاستشاره"
     replace: "الاستشارة"
     word: true
-  - trigger: "الاستشاري"
-    replace: "الإستشاري"
-    word: true
-  - trigger: "الاستشارية"
-    replace: "الإستشارية"
-    word: true
-  - trigger: "الاستشعار"
-    replace: "الإستشعار"
-    word: true
-  - trigger: "الاستشفاء"
-    replace: "الإستشفاء"
-    word: true
-  - trigger: "الاستشهاد"
-    replace: "الإستشهاد"
-    word: true
-  - trigger: "الاستضافة"
-    replace: "الإستضافة"
-    word: true
   - trigger: "الاستضافه"
     replace: "الاستضافة"
-    word: true
-  - trigger: "الاستطلاع"
-    replace: "الإستطلاع"
-    word: true
-  - trigger: "الاستطلاعات"
-    replace: "الإستطلاعات"
-    word: true
-  - trigger: "الاستعادة"
-    replace: "الإستعادة"
-    word: true
-  - trigger: "الاستعارات"
-    replace: "الإستعارات"
-    word: true
-  - trigger: "الاستعارة"
-    replace: "الإستعارة"
     word: true
   - trigger: "الاستعاره"
     replace: "الاستعارة"
     word: true
-  - trigger: "الاستعانة"
-    replace: "الإستعانة"
-    word: true
   - trigger: "الاستعانه"
     replace: "الاستعانة"
-    word: true
-  - trigger: "الاستعباد"
-    replace: "الإستعباد"
-    word: true
-  - trigger: "الاستعجال"
-    replace: "الإستعجال"
-    word: true
-  - trigger: "الاستعداد"
-    replace: "الإستعداد"
-    word: true
-  - trigger: "الاستعدادات"
-    replace: "الإستعدادات"
-    word: true
-  - trigger: "الاستعراض"
-    replace: "الإستعراض"
-    word: true
-  - trigger: "الاستعراضات"
-    replace: "الإستعراضات"
-    word: true
-  - trigger: "الاستعلامات"
-    replace: "الإستعلامات"
-    word: true
-  - trigger: "الاستعمار"
-    replace: "الإستعمار"
-    word: true
-  - trigger: "الاستعمارية"
-    replace: "الإستعمارية"
-    word: true
-  - trigger: "الاستعمال"
-    replace: "الإستعمال"
-    word: true
-  - trigger: "الاستغاثة"
-    replace: "الإستغاثة"
     word: true
   - trigger: "الاستغاثه"
     replace: "الاستغاثة"
     word: true
-  - trigger: "الاستغلال"
-    replace: "الإستغلال"
-    word: true
-  - trigger: "الاستغناء"
-    replace: "الإستغناء"
-    word: true
-  - trigger: "الاستفادة"
-    replace: "الإستفادة"
-    word: true
   - trigger: "الاستفاده"
     replace: "الاستفادة"
-    word: true
-  - trigger: "الاستفتاء"
-    replace: "الإستفتاء"
-    word: true
-  - trigger: "الاستفزاز"
-    replace: "الإستفزاز"
-    word: true
-  - trigger: "الاستفسار"
-    replace: "الإستفسار"
-    word: true
-  - trigger: "الاستفسارات"
-    replace: "الإستفسارات"
-    word: true
-  - trigger: "الاستفهام"
-    replace: "الإستفهام"
-    word: true
-  - trigger: "الاستقالة"
-    replace: "الإستقالة"
-    word: true
-  - trigger: "الاستقامة"
-    replace: "الإستقامة"
     word: true
   - trigger: "الاستقامه"
     replace: "الاستقامة"
     word: true
-  - trigger: "الاستقبال"
-    replace: "الإستقبال"
-    word: true
-  - trigger: "الاستقرار"
-    replace: "الإستقرار"
-    word: true
-  - trigger: "الاستقصاء"
-    replace: "الإستقصاء"
-    word: true
-  - trigger: "الاستقلال"
-    replace: "الإستقلال"
-    word: true
-  - trigger: "الاستقلالية"
-    replace: "الإستقلالية"
-    word: true
-  - trigger: "الاستكشاف"
-    replace: "الإستكشاف"
-    word: true
-  - trigger: "الاستكشافية"
-    replace: "الإستكشافية"
-    word: true
-  - trigger: "الاستلام"
-    replace: "الإستلام"
-    word: true
-  - trigger: "الاستلقاء"
-    replace: "الإستلقاء"
-    word: true
-  - trigger: "الاستمارات"
-    replace: "الإستمارات"
-    word: true
-  - trigger: "الاستمارة"
-    replace: "الإستمارة"
-    word: true
-  - trigger: "الاستماع"
-    replace: "الإستماع"
-    word: true
-  - trigger: "الاستمتاع"
-    replace: "الإستمتاع"
-    word: true
-  - trigger: "الاستمرار"
-    replace: "الإستمرار"
-    word: true
-  - trigger: "الاستمرارية"
-    replace: "الإستمرارية"
-    word: true
   - trigger: "الاستمراريه"
     replace: "الاستمرارية"
-    word: true
-  - trigger: "الاستمناء"
-    replace: "الإستمناء"
     word: true
   - trigger: "الاستناره"
     replace: "الاستنارة"
     word: true
-  - trigger: "الاستنتاج"
-    replace: "الإستنتاج"
-    word: true
-  - trigger: "الاستنتاجات"
-    replace: "الإستنتاجات"
-    word: true
-  - trigger: "الاستنساخ"
-    replace: "الإستنساخ"
-    word: true
-  - trigger: "الاستنشاق"
-    replace: "الإستنشاق"
-    word: true
-  - trigger: "الاستهانة"
-    replace: "الإستهانة"
-    word: true
   - trigger: "الاستهانه"
     replace: "الاستهانة"
-    word: true
-  - trigger: "الاستهداف"
-    replace: "الإستهداف"
-    word: true
-  - trigger: "الاستهزاء"
-    replace: "الإستهزاء"
-    word: true
-  - trigger: "الاستهلاك"
-    replace: "الإستهلاك"
-    word: true
-  - trigger: "الاستواء"
-    replace: "الإستواء"
-    word: true
-  - trigger: "الاستوائي"
-    replace: "الإستوائي"
-    word: true
-  - trigger: "الاستوائية"
-    replace: "الإستوائية"
-    word: true
-  - trigger: "الاستوديو"
-    replace: "الأستوديو"
-    word: true
-  - trigger: "الاستياء"
-    replace: "الإستياء"
-    word: true
-  - trigger: "الاستيراد"
-    replace: "الإستيراد"
-    word: true
-  - trigger: "الاستيعاب"
-    replace: "الإستيعاب"
-    word: true
-  - trigger: "الاستيقاظ"
-    replace: "الإستيقاظ"
-    word: true
-  - trigger: "الاستيلاء"
-    replace: "الإستيلاء"
     word: true
   - trigger: "الاسجارد"
     replace: "الأسجارد"
@@ -3388,15 +2236,6 @@ matches:
   - trigger: "الاسر"
     replace: "الأسر"
     word: true
-  - trigger: "الاسرائليين"
-    replace: "الإسرائليين"
-    word: true
-  - trigger: "الاسرائيلي"
-    replace: "الإسرائيلي"
-    word: true
-  - trigger: "الاسرائيلية"
-    replace: "الإسرائيلية"
-    word: true
   - trigger: "الاسرائيليون"
     replace: "الإسرائيليون"
     word: true
@@ -3409,20 +2248,11 @@ matches:
   - trigger: "الاسرار"
     replace: "الأسرار"
     word: true
-  - trigger: "الاسراع"
-    replace: "الإسراع"
-    word: true
-  - trigger: "الاسراف"
-    replace: "الإسراف"
-    word: true
   - trigger: "الاسرة"
     replace: "الأسرة"
     word: true
   - trigger: "الاسرع"
     replace: "الأسرع"
-    word: true
-  - trigger: "الاسره"
-    replace: "الأسره"
     word: true
   - trigger: "الاسرى"
     replace: "الأسرى"
@@ -3436,26 +2266,11 @@ matches:
   - trigger: "الاسس"
     replace: "الأسس"
     word: true
-  - trigger: "الاسطبل"
-    replace: "الإسطبل"
-    word: true
-  - trigger: "الاسطبلات"
-    replace: "الإسطبلات"
-    word: true
   - trigger: "الاسطح"
     replace: "الأسطح"
     word: true
   - trigger: "الاسطر"
     replace: "الأسطر"
-    word: true
-  - trigger: "الاسطرلاب"
-    replace: "الإسطرلاب"
-    word: true
-  - trigger: "الاسطوانات"
-    replace: "الإسطوانات"
-    word: true
-  - trigger: "الاسطوانة"
-    replace: "الأسطوانة"
     word: true
   - trigger: "الاسطوانه"
     replace: "الاسطوانة"
@@ -3463,17 +2278,11 @@ matches:
   - trigger: "الاسطورة"
     replace: "الأسطورة"
     word: true
-  - trigger: "الاسطوره"
-    replace: "الأسطوره"
-    word: true
   - trigger: "الاسطوري"
     replace: "الأسطوري"
     word: true
   - trigger: "الاسطورية"
     replace: "الأسطورية"
-    word: true
-  - trigger: "الاسطوريه"
-    replace: "الأسطوريه"
     word: true
   - trigger: "الاسطوريين"
     replace: "الأسطوريين"
@@ -3483,12 +2292,6 @@ matches:
     word: true
   - trigger: "الاسعار"
     replace: "الأسعار"
-    word: true
-  - trigger: "الاسعاف"
-    replace: "الإسعاف"
-    word: true
-  - trigger: "الاسعافات"
-    replace: "الإسعافات"
     word: true
   - trigger: "الاسعد"
     replace: "الأسعد"
@@ -3508,18 +2311,6 @@ matches:
   - trigger: "الاسفل"
     replace: "الأسفل"
     word: true
-  - trigger: "الاسفلت"
-    replace: "الأسفلت"
-    word: true
-  - trigger: "الاسفنج"
-    replace: "الإسفنج"
-    word: true
-  - trigger: "الاسفنجة"
-    replace: "الإسفنجة"
-    word: true
-  - trigger: "الاسفنجية"
-    replace: "الإسفنجية"
-    word: true
   - trigger: "الاسقاط"
     replace: "الإسقاط"
     word: true
@@ -3532,9 +2323,6 @@ matches:
   - trigger: "الاسقمري"
     replace: "الإسقمري"
     word: true
-  - trigger: "الاسكا"
-    replace: "الأسكا"
-    word: true
   - trigger: "الاسكات"
     replace: "الإسكات"
     word: true
@@ -3544,32 +2332,8 @@ matches:
   - trigger: "الاسكان"
     replace: "الإسكان"
     word: true
-  - trigger: "الاسكتلندي"
-    replace: "الأسكتلندي"
-    word: true
-  - trigger: "الاسكتلندية"
-    replace: "الأسكتلندية"
-    word: true
-  - trigger: "الاسكتلنديين"
-    replace: "الأسكتلنديين"
-    word: true
-  - trigger: "الاسكندر"
-    replace: "الإسكندر"
-    word: true
-  - trigger: "الاسكندرية"
-    replace: "الإسكندرية"
-    word: true
   - trigger: "الاسكندريه"
     replace: "الاسكندرية"
-    word: true
-  - trigger: "الاسكندنافية"
-    replace: "الإسكندنافية"
-    word: true
-  - trigger: "الاسكواش"
-    replace: "الإسكواش"
-    word: true
-  - trigger: "الاسكيمو"
-    replace: "الإسكيمو"
     word: true
   - trigger: "الاسلاف"
     replace: "الأسلاف"
@@ -3592,17 +2356,11 @@ matches:
   - trigger: "الاسلحة"
     replace: "الأسلحة"
     word: true
-  - trigger: "الاسلحه"
-    replace: "الأسلحه"
-    word: true
   - trigger: "الاسلم"
     replace: "الأسلم"
     word: true
   - trigger: "الاسلوب"
     replace: "الأسلوب"
-    word: true
-  - trigger: "الاسم"
-    replace: "الإسم"
     word: true
   - trigger: "الاسماء"
     replace: "الأسماء"
@@ -3616,14 +2374,8 @@ matches:
   - trigger: "الاسمر"
     replace: "الأسمر"
     word: true
-  - trigger: "الاسمنت"
-    replace: "الإسمنت"
-    word: true
   - trigger: "الاسمى"
     replace: "الأسمى"
-    word: true
-  - trigger: "الاسمين"
-    replace: "الإسمين"
     word: true
   - trigger: "الاسناد"
     replace: "الإسناد"
@@ -3642,12 +2394,6 @@ matches:
     word: true
   - trigger: "الاسوء"
     replace: "الأسوء"
-    word: true
-  - trigger: "الاسوا"
-    replace: "الأسوا"
-    word: true
-  - trigger: "الاسواء"
-    replace: "الأسواء"
     word: true
   - trigger: "الاسوار"
     replace: "الأسوار"
@@ -3673,9 +2419,6 @@ matches:
   - trigger: "الاسيجة"
     replace: "الأسيجة"
     word: true
-  - trigger: "الاسيد"
-    replace: "الأسيد"
-    word: true
   - trigger: "الاسير"
     replace: "الأسير"
     word: true
@@ -3700,9 +2443,6 @@ matches:
   - trigger: "الاسيويين"
     replace: "الآسيويين"
     word: true
-  - trigger: "الاشاء"
-    replace: "الأشاء"
-    word: true
   - trigger: "الاشادة"
     replace: "الإشادة"
     word: true
@@ -3711,12 +2451,6 @@ matches:
     word: true
   - trigger: "الاشارة"
     replace: "الإشارة"
-    word: true
-  - trigger: "الاشاره"
-    replace: "الإشاره"
-    word: true
-  - trigger: "الاشاعات"
-    replace: "الإشاعات"
     word: true
   - trigger: "الاشاعة"
     replace: "الإشاعة"
@@ -3732,39 +2466,6 @@ matches:
     word: true
   - trigger: "الاشبال"
     replace: "الأشبال"
-    word: true
-  - trigger: "الاشبين"
-    replace: "الإشبين"
-    word: true
-  - trigger: "الاشبينة"
-    replace: "الإشبينة"
-    word: true
-  - trigger: "الاشتباك"
-    replace: "الإشتباك"
-    word: true
-  - trigger: "الاشتباكات"
-    replace: "الإشتباكات"
-    word: true
-  - trigger: "الاشتباه"
-    replace: "الإشتباه"
-    word: true
-  - trigger: "الاشتراك"
-    replace: "الإشتراك"
-    word: true
-  - trigger: "الاشتراكي"
-    replace: "الإشتراكي"
-    word: true
-  - trigger: "الاشتراكية"
-    replace: "الإشتراكية"
-    word: true
-  - trigger: "الاشتراكيين"
-    replace: "الإشتراكيين"
-    word: true
-  - trigger: "الاشتعال"
-    replace: "الإشتعال"
-    word: true
-  - trigger: "الاشتياق"
-    replace: "الإشتياق"
     word: true
   - trigger: "الاشجار"
     replace: "الأشجار"
@@ -3802,9 +2503,6 @@ matches:
   - trigger: "الاشرعة"
     replace: "الأشرعة"
     word: true
-  - trigger: "الاشعار"
-    replace: "الإشعار"
-    word: true
   - trigger: "الاشعاع"
     replace: "الإشعاع"
     word: true
@@ -3826,14 +2524,8 @@ matches:
   - trigger: "الاشعث"
     replace: "الأشعث"
     word: true
-  - trigger: "الاشعه"
-    replace: "الاشعة"
-    word: true
   - trigger: "الاشغال"
     replace: "الأشغال"
-    word: true
-  - trigger: "الاشفيني"
-    replace: "الأشفيني"
     word: true
   - trigger: "الاشقاء"
     replace: "الأشقاء"
@@ -3849,9 +2541,6 @@ matches:
     word: true
   - trigger: "الاشلاء"
     replace: "الأشلاء"
-    word: true
-  - trigger: "الاشمئزاز"
-    replace: "الإشمئزاز"
     word: true
   - trigger: "الاشمل"
     replace: "الأشمل"
@@ -3883,17 +2572,11 @@ matches:
   - trigger: "الاصابع"
     replace: "الأصابع"
     word: true
-  - trigger: "الاصابه"
-    replace: "الإصابه"
-    word: true
   - trigger: "الاصالة"
     replace: "الأصالة"
     word: true
   - trigger: "الاصباغ"
     replace: "الأصباغ"
-    word: true
-  - trigger: "الاصبع"
-    replace: "الإصبع"
     word: true
   - trigger: "الاصح"
     replace: "الأصح"
@@ -3901,20 +2584,8 @@ matches:
   - trigger: "الاصحاء"
     replace: "الأصحاء"
     word: true
-  - trigger: "الاصحاب"
-    replace: "الأصحاب"
-    word: true
-  - trigger: "الاصحاح"
-    replace: "الإصحاح"
-    word: true
   - trigger: "الاصداء"
     replace: "الأصداء"
-    word: true
-  - trigger: "الاصدار"
-    replace: "الإصدار"
-    word: true
-  - trigger: "الاصدارات"
-    replace: "الإصدارات"
     word: true
   - trigger: "الاصداف"
     replace: "الأصداف"
@@ -3924,27 +2595,6 @@ matches:
     word: true
   - trigger: "الاصرار"
     replace: "الإصرار"
-    word: true
-  - trigger: "الاصطدام"
-    replace: "الإصطدام"
-    word: true
-  - trigger: "الاصطدامات"
-    replace: "الإصطدامات"
-    word: true
-  - trigger: "الاصطفاف"
-    replace: "الإصطفاف"
-    word: true
-  - trigger: "الاصطناعى"
-    replace: "الإصطناعى"
-    word: true
-  - trigger: "الاصطناعي"
-    replace: "الإصطناعي"
-    word: true
-  - trigger: "الاصطناعية"
-    replace: "الإصطناعية"
-    word: true
-  - trigger: "الاصطياد"
-    replace: "الإصطياد"
     word: true
   - trigger: "الاصعب"
     replace: "الأصعب"
@@ -3973,14 +2623,8 @@ matches:
   - trigger: "الاصلاح"
     replace: "الإصلاح"
     word: true
-  - trigger: "الاصلاحات"
-    replace: "الإصلاحات"
-    word: true
   - trigger: "الاصلاحي"
     replace: "الإصلاحي"
-    word: true
-  - trigger: "الاصلاحية"
-    replace: "الإصلاحية"
     word: true
   - trigger: "الاصلب"
     replace: "الأصلب"
@@ -3991,26 +2635,17 @@ matches:
   - trigger: "الاصلع"
     replace: "الأصلع"
     word: true
-  - trigger: "الاصلى"
-    replace: "الأصلى"
-    word: true
   - trigger: "الاصلي"
     replace: "الأصلي"
     word: true
   - trigger: "الاصلية"
     replace: "الأصلية"
     word: true
-  - trigger: "الاصليه"
-    replace: "الأصليه"
-    word: true
   - trigger: "الاصليون"
     replace: "الأصليون"
     word: true
   - trigger: "الاصليين"
     replace: "الأصليين"
-    word: true
-  - trigger: "الاصم"
-    replace: "الأصم"
     word: true
   - trigger: "الاصناف"
     replace: "الأصناف"
@@ -4036,32 +2671,14 @@ matches:
   - trigger: "الاضاءة"
     replace: "الإضاءة"
     word: true
-  - trigger: "الاضاءه"
-    replace: "الإضاءه"
-    word: true
   - trigger: "الاضائة"
     replace: "الإضائة"
-    word: true
-  - trigger: "الاضافات"
-    replace: "الإضافات"
-    word: true
-  - trigger: "الاضافة"
-    replace: "الإضافة"
-    word: true
-  - trigger: "الاضافه"
-    replace: "الاضافة"
-    word: true
-  - trigger: "الاضافى"
-    replace: "الإضافى"
     word: true
   - trigger: "الاضافي"
     replace: "الإضافي"
     word: true
   - trigger: "الاضافية"
     replace: "الإضافية"
-    word: true
-  - trigger: "الاضافيه"
-    replace: "الإضافيه"
     word: true
   - trigger: "الاضافيين"
     replace: "الإضافيين"
@@ -4081,26 +2698,11 @@ matches:
   - trigger: "الاضراب"
     replace: "الإضراب"
     word: true
-  - trigger: "الاضرابات"
-    replace: "الإضرابات"
-    word: true
   - trigger: "الاضرار"
     replace: "الأضرار"
     word: true
   - trigger: "الاضرحة"
     replace: "الأضرحة"
-    word: true
-  - trigger: "الاضطراب"
-    replace: "الإضطراب"
-    word: true
-  - trigger: "الاضطرابات"
-    replace: "الإضطرابات"
-    word: true
-  - trigger: "الاضطرار"
-    replace: "الإضطرار"
-    word: true
-  - trigger: "الاضطهاد"
-    replace: "الإضطهاد"
     word: true
   - trigger: "الاضعف"
     replace: "الأضعف"
@@ -4153,12 +2755,6 @@ matches:
   - trigger: "الاطعمة"
     replace: "الأطعمة"
     word: true
-  - trigger: "الاطعمه"
-    replace: "الاطعمة"
-    word: true
-  - trigger: "الاطفاء"
-    replace: "الإطفاء"
-    word: true
   - trigger: "الاطفائي"
     replace: "الإطفائي"
     word: true
@@ -4177,23 +2773,14 @@ matches:
   - trigger: "الاطقم"
     replace: "الأطقم"
     word: true
-  - trigger: "الاطلاع"
-    replace: "الإطلاع"
-    word: true
   - trigger: "الاطلاق"
     replace: "الإطلاق"
     word: true
   - trigger: "الاطلال"
     replace: "الأطلال"
     word: true
-  - trigger: "الاطلالة"
-    replace: "الإطلالة"
-    word: true
   - trigger: "الاطلس"
     replace: "الأطلس"
-    word: true
-  - trigger: "الاطلسى"
-    replace: "الأطلسى"
     word: true
   - trigger: "الاطلسي"
     replace: "الأطلسي"
@@ -4203,9 +2790,6 @@ matches:
     word: true
   - trigger: "الاطلنطي"
     replace: "الأطلنطي"
-    word: true
-  - trigger: "الاطمئنان"
-    replace: "الإطمئنان"
     word: true
   - trigger: "الاطنان"
     replace: "الأطنان"
@@ -4263,75 +2847,6 @@ matches:
     word: true
   - trigger: "الاعانة"
     replace: "الإعانة"
-    word: true
-  - trigger: "الاعباء"
-    replace: "الأعباء"
-    word: true
-  - trigger: "الاعتبار"
-    replace: "الإعتبار"
-    word: true
-  - trigger: "الاعتبارات"
-    replace: "الإعتبارات"
-    word: true
-  - trigger: "الاعتداء"
-    replace: "الإعتداء"
-    word: true
-  - trigger: "الاعتداءات"
-    replace: "الإعتداءات"
-    word: true
-  - trigger: "الاعتدال"
-    replace: "الإعتدال"
-    word: true
-  - trigger: "الاعتذار"
-    replace: "الإعتذار"
-    word: true
-  - trigger: "الاعتذارات"
-    replace: "الإعتذارات"
-    word: true
-  - trigger: "الاعتراض"
-    replace: "الإعتراض"
-    word: true
-  - trigger: "الاعتراضات"
-    replace: "الإعتراضات"
-    word: true
-  - trigger: "الاعتراف"
-    replace: "الإعتراف"
-    word: true
-  - trigger: "الاعترافات"
-    replace: "الإعترافات"
-    word: true
-  - trigger: "الاعتزال"
-    replace: "الإعتزال"
-    word: true
-  - trigger: "الاعتقاد"
-    replace: "الإعتقاد"
-    word: true
-  - trigger: "الاعتقادات"
-    replace: "الإعتقادات"
-    word: true
-  - trigger: "الاعتقال"
-    replace: "الإعتقال"
-    word: true
-  - trigger: "الاعتقالات"
-    replace: "الإعتقالات"
-    word: true
-  - trigger: "الاعتماد"
-    replace: "الإعتماد"
-    word: true
-  - trigger: "الاعتمادات"
-    replace: "الإعتمادات"
-    word: true
-  - trigger: "الاعتناء"
-    replace: "الإعتناء"
-    word: true
-  - trigger: "الاعتياد"
-    replace: "الإعتياد"
-    word: true
-  - trigger: "الاعتيادي"
-    replace: "الإعتيادي"
-    word: true
-  - trigger: "الاعتيادية"
-    replace: "الإعتيادية"
     word: true
   - trigger: "الاعجاب"
     replace: "الإعجاب"
@@ -4393,9 +2908,6 @@ matches:
   - trigger: "الاعصاب"
     replace: "الأعصاب"
     word: true
-  - trigger: "الاعصار"
-    replace: "الإعصار"
-    word: true
   - trigger: "الاعضاء"
     replace: "الأعضاء"
     word: true
@@ -4405,20 +2917,11 @@ matches:
   - trigger: "الاعظم"
     replace: "الأعظم"
     word: true
-  - trigger: "الاعفاء"
-    replace: "الإعفاء"
-    word: true
   - trigger: "الاعلام"
     replace: "الإعلام"
     word: true
-  - trigger: "الاعلامي"
-    replace: "الإعلامي"
-    word: true
   - trigger: "الاعلامية"
     replace: "الإعلامية"
-    word: true
-  - trigger: "الاعلاميين"
-    replace: "الإعلاميين"
     word: true
   - trigger: "الاعلان"
     replace: "الإعلان"
@@ -4435,9 +2938,6 @@ matches:
   - trigger: "الاعلى"
     replace: "الأعلى"
     word: true
-  - trigger: "الاعلي"
-    replace: "الأعلي"
-    word: true
   - trigger: "الاعمار"
     replace: "الأعمار"
     word: true
@@ -4453,17 +2953,11 @@ matches:
   - trigger: "الاعمدة"
     replace: "الأعمدة"
     word: true
-  - trigger: "الاعمده"
-    replace: "الاعمدة"
-    word: true
   - trigger: "الاعمق"
     replace: "الأعمق"
     word: true
   - trigger: "الاعمى"
     replace: "الأعمى"
-    word: true
-  - trigger: "الاعمي"
-    replace: "الأعمي"
     word: true
   - trigger: "الاعناق"
     replace: "الأعناق"
@@ -4492,14 +2986,8 @@ matches:
   - trigger: "الاغاثة"
     replace: "الإغاثة"
     word: true
-  - trigger: "الاغاثه"
-    replace: "الاغاثة"
-    word: true
   - trigger: "الاغارة"
     replace: "الإغارة"
-    word: true
-  - trigger: "الاغانى"
-    replace: "الأغانى"
     word: true
   - trigger: "الاغاني"
     replace: "الأغاني"
@@ -4510,29 +2998,8 @@ matches:
   - trigger: "الاغبياء"
     replace: "الأغبياء"
     word: true
-  - trigger: "الاغتسال"
-    replace: "الإغتسال"
-    word: true
-  - trigger: "الاغتصاب"
-    replace: "الإغتصاب"
-    word: true
-  - trigger: "الاغتيال"
-    replace: "الإغتيال"
-    word: true
-  - trigger: "الاغتيالات"
-    replace: "الإغتيالات"
-    word: true
   - trigger: "الاغذية"
     replace: "الأغذية"
-    word: true
-  - trigger: "الاغذيه"
-    replace: "الاغذية"
-    word: true
-  - trigger: "الاغراء"
-    replace: "الإغراء"
-    word: true
-  - trigger: "الاغراءات"
-    replace: "الإغراءات"
     word: true
   - trigger: "الاغراب"
     replace: "الأغراب"
@@ -4545,15 +3012,6 @@ matches:
     word: true
   - trigger: "الاغرب"
     replace: "الأغرب"
-    word: true
-  - trigger: "الاغريق"
-    replace: "الإغريق"
-    word: true
-  - trigger: "الاغريقي"
-    replace: "الإغريقي"
-    word: true
-  - trigger: "الاغريقية"
-    replace: "الإغريقية"
     word: true
   - trigger: "الاغشية"
     replace: "الأغشية"
@@ -4606,23 +3064,11 @@ matches:
   - trigger: "الاغنية"
     replace: "الأغنية"
     word: true
-  - trigger: "الاغنيه"
-    replace: "الأغنيه"
-    word: true
   - trigger: "الاغواء"
     replace: "الإغواء"
     word: true
-  - trigger: "الاف"
-    replace: "الآف"
-    word: true
   - trigger: "الافات"
     replace: "الآفات"
-    word: true
-  - trigger: "الافاتار"
-    replace: "الأفاتار"
-    word: true
-  - trigger: "الافادات"
-    replace: "الإفادات"
     word: true
   - trigger: "الافادة"
     replace: "الإفادة"
@@ -4651,56 +3097,17 @@ matches:
   - trigger: "الافتار"
     replace: "الأفتار"
     word: true
-  - trigger: "الافتتاح"
-    replace: "الإفتتاح"
-    word: true
-  - trigger: "الافتتاحي"
-    replace: "الإفتتاحي"
-    word: true
-  - trigger: "الافتتاحية"
-    replace: "الإفتتاحية"
-    word: true
-  - trigger: "الافتخار"
-    replace: "الإفتخار"
-    word: true
-  - trigger: "الافتراء"
-    replace: "الإفتراء"
-    word: true
-  - trigger: "الافتراض"
-    replace: "الإفتراض"
-    word: true
-  - trigger: "الافتراضات"
-    replace: "الإفتراضات"
-    word: true
-  - trigger: "الافتراضى"
-    replace: "الإفتراضى"
-    word: true
-  - trigger: "الافتراضي"
-    replace: "الإفتراضي"
-    word: true
-  - trigger: "الافتراضية"
-    replace: "الإفتراضية"
-    word: true
-  - trigger: "الافتراق"
-    replace: "الإفتراق"
-    word: true
   - trigger: "الافخاخ"
     replace: "الأفخاخ"
     word: true
   - trigger: "الافخاذ"
     replace: "الأفخاذ"
     word: true
-  - trigger: "الافراج"
-    replace: "الإفراج"
-    word: true
   - trigger: "الافراح"
     replace: "الأفراح"
     word: true
   - trigger: "الافراد"
     replace: "الأفراد"
-    word: true
-  - trigger: "الافرازات"
-    replace: "الإفرازات"
     word: true
   - trigger: "الافراط"
     replace: "الإفراط"
@@ -4713,9 +3120,6 @@ matches:
     word: true
   - trigger: "الافرع"
     replace: "الأفرع"
-    word: true
-  - trigger: "الافريقى"
-    replace: "الأفريقى"
     word: true
   - trigger: "الافريقي"
     replace: "الأفريقي"
@@ -4768,9 +3172,6 @@ matches:
   - trigger: "الافغاني"
     replace: "الأفغاني"
     word: true
-  - trigger: "الافغانية"
-    replace: "الأفغانية"
-    word: true
   - trigger: "الافق"
     replace: "الأفق"
     word: true
@@ -4807,77 +3208,14 @@ matches:
   - trigger: "الاقارب"
     replace: "الأقارب"
     word: true
-  - trigger: "الاقالة"
-    replace: "الإقالة"
-    word: true
-  - trigger: "الاقاليم"
-    replace: "الأقاليم"
-    word: true
   - trigger: "الاقامة"
     replace: "الإقامة"
-    word: true
-  - trigger: "الاقامه"
-    replace: "الإقامه"
     word: true
   - trigger: "الاقاويل"
     replace: "الأقاويل"
     word: true
-  - trigger: "الاقبال"
-    replace: "الإقبال"
-    word: true
   - trigger: "الاقبية"
     replace: "الأقبية"
-    word: true
-  - trigger: "الاقتباس"
-    replace: "الإقتباس"
-    word: true
-  - trigger: "الاقتباسات"
-    replace: "الإقتباسات"
-    word: true
-  - trigger: "الاقتحام"
-    replace: "الإقتحام"
-    word: true
-  - trigger: "الاقتحامات"
-    replace: "الإقتحامات"
-    word: true
-  - trigger: "الاقتراب"
-    replace: "الإقتراب"
-    word: true
-  - trigger: "الاقتراح"
-    replace: "الإقتراح"
-    word: true
-  - trigger: "الاقتراحات"
-    replace: "الإقتراحات"
-    word: true
-  - trigger: "الاقتراض"
-    replace: "الإقتراض"
-    word: true
-  - trigger: "الاقتراع"
-    replace: "الإقتراع"
-    word: true
-  - trigger: "الاقتراعات"
-    replace: "الإقتراعات"
-    word: true
-  - trigger: "الاقتصاد"
-    replace: "الإقتصاد"
-    word: true
-  - trigger: "الاقتصادى"
-    replace: "الأقتصادى"
-    word: true
-  - trigger: "الاقتصادي"
-    replace: "الإقتصادي"
-    word: true
-  - trigger: "الاقتصادية"
-    replace: "الإقتصادية"
-    word: true
-  - trigger: "الاقتصاديه"
-    replace: "الإقتصاديه"
-    word: true
-  - trigger: "الاقتناع"
-    replace: "الإقتناع"
-    word: true
-  - trigger: "الاقحوان"
-    replace: "الأقحوان"
     word: true
   - trigger: "الاقداح"
     replace: "الأقداح"
@@ -4966,9 +3304,6 @@ matches:
   - trigger: "الاقل"
     replace: "الأقل"
     word: true
-  - trigger: "الاقلاع"
-    replace: "الإقلاع"
-    word: true
   - trigger: "الاقلام"
     replace: "الأقلام"
     word: true
@@ -4977,9 +3312,6 @@ matches:
     word: true
   - trigger: "الاقلية"
     replace: "الأقلية"
-    word: true
-  - trigger: "الاقليم"
-    replace: "الإقليم"
     word: true
   - trigger: "الاقليمي"
     replace: "الإقليمي"
@@ -5017,9 +3349,6 @@ matches:
   - trigger: "الاقوى"
     replace: "الأقوى"
     word: true
-  - trigger: "الاقوي"
-    replace: "الأقوي"
-    word: true
   - trigger: "الاقوياء"
     replace: "الأقوياء"
     word: true
@@ -5031,9 +3360,6 @@ matches:
     word: true
   - trigger: "الاكاديمية"
     replace: "الأكاديمية"
-    word: true
-  - trigger: "الاكاديميه"
-    replace: "الأكاديميه"
     word: true
   - trigger: "الاكاديميين"
     replace: "الأكاديميين"
@@ -5047,41 +3373,17 @@ matches:
   - trigger: "الاكبر"
     replace: "الأكبر"
     word: true
-  - trigger: "الاكتئاب"
-    replace: "الإكتئاب"
-    word: true
   - trigger: "الاكتاف"
     replace: "الأكتاف"
     word: true
   - trigger: "الاكتر"
     replace: "الأكتر"
     word: true
-  - trigger: "الاكتراث"
-    replace: "الإكتراث"
-    word: true
-  - trigger: "الاكتشاف"
-    replace: "الإكتشاف"
-    word: true
-  - trigger: "الاكتشافات"
-    replace: "الإكتشافات"
-    word: true
-  - trigger: "الاكتفاء"
-    replace: "الإكتفاء"
-    word: true
-  - trigger: "الاكتمال"
-    replace: "الإكتمال"
-    word: true
-  - trigger: "الاكثار"
-    replace: "الإكثار"
-    word: true
   - trigger: "الاكثر"
     replace: "الأكثر"
     word: true
   - trigger: "الاكراد"
     replace: "الأكراد"
-    word: true
-  - trigger: "الاكراميات"
-    replace: "الإكراميات"
     word: true
   - trigger: "الاكرامية"
     replace: "الإكرامية"
@@ -5092,9 +3394,6 @@ matches:
   - trigger: "الاكزيما"
     replace: "الأكزيما"
     word: true
-  - trigger: "الاكس"
-    replace: "الإكس"
-    word: true
   - trigger: "الاكسجة"
     replace: "الأكسجة"
     word: true
@@ -5103,9 +3402,6 @@ matches:
     word: true
   - trigger: "الاكسدة"
     replace: "الأكسدة"
-    word: true
-  - trigger: "الاكسسوارات"
-    replace: "الإكسسوارات"
     word: true
   - trigger: "الاكسير"
     replace: "الإكسير"
@@ -5151,9 +3447,6 @@ matches:
     word: true
   - trigger: "الاكواد"
     replace: "الأكواد"
-    word: true
-  - trigger: "الاكوادور"
-    replace: "الإكوادور"
     word: true
   - trigger: "الاكوام"
     replace: "الأكوام"
@@ -5218,53 +3511,8 @@ matches:
   - trigger: "الالتئام"
     replace: "الإلتئام"
     word: true
-  - trigger: "الالتباس"
-    replace: "الإلتباس"
-    word: true
-  - trigger: "الالتحاق"
-    replace: "الإلتحاق"
-    word: true
-  - trigger: "الالتحام"
-    replace: "الإلتحام"
-    word: true
-  - trigger: "الالتزام"
-    replace: "الإلتزام"
-    word: true
-  - trigger: "الالتزامات"
-    replace: "الإلتزامات"
-    word: true
-  - trigger: "الالتصاق"
-    replace: "الإلتصاق"
-    word: true
-  - trigger: "الالتفات"
-    replace: "الإلتفات"
-    word: true
-  - trigger: "الالتفاف"
-    replace: "الإلتفاف"
-    word: true
-  - trigger: "الالتقاء"
-    replace: "الإلتقاء"
-    word: true
-  - trigger: "الالتقاط"
-    replace: "الإلتقاط"
-    word: true
-  - trigger: "الالتماس"
-    replace: "الإلتماس"
-    word: true
-  - trigger: "الالتهاب"
-    replace: "الإلتهاب"
-    word: true
-  - trigger: "الالتهابات"
-    replace: "الإلتهابات"
-    word: true
-  - trigger: "الالتواء"
-    replace: "الإلتواء"
-    word: true
   - trigger: "الالحاح"
     replace: "الإلحاح"
-    word: true
-  - trigger: "الالحاد"
-    replace: "الإلحاد"
     word: true
   - trigger: "الالحان"
     replace: "الألحان"
@@ -5296,9 +3544,6 @@ matches:
   - trigger: "الالف"
     replace: "الألف"
     word: true
-  - trigger: "الالفا"
-    replace: "الألفا"
-    word: true
   - trigger: "الالفاظ"
     replace: "الألفاظ"
     word: true
@@ -5323,23 +3568,11 @@ matches:
   - trigger: "الالكترون"
     replace: "الإلكترون"
     word: true
-  - trigger: "الالكترونات"
-    replace: "الإلكترونات"
-    word: true
-  - trigger: "الالكترونى"
-    replace: "الإلكترونى"
-    word: true
   - trigger: "الالكتروني"
     replace: "الإلكتروني"
     word: true
-  - trigger: "الالكترونيات"
-    replace: "الإلكترونيات"
-    word: true
   - trigger: "الالكترونية"
     replace: "الإلكترونية"
-    word: true
-  - trigger: "الالكترونيه"
-    replace: "الإلكترونيه"
     word: true
   - trigger: "الالم"
     replace: "الألم"
@@ -5368,9 +3601,6 @@ matches:
   - trigger: "الالمانية"
     replace: "الألمانية"
     word: true
-  - trigger: "الالمانيه"
-    replace: "الألمانيه"
-    word: true
   - trigger: "الالمانيين"
     replace: "الألمانيين"
     word: true
@@ -5398,23 +3628,14 @@ matches:
   - trigger: "الالهة"
     replace: "الآلهة"
     word: true
-  - trigger: "الالهه"
-    replace: "الآلهه"
-    word: true
   - trigger: "الالهي"
     replace: "الإلهي"
-    word: true
-  - trigger: "الالهية"
-    replace: "الإلهية"
     word: true
   - trigger: "الالواح"
     replace: "الألواح"
     word: true
   - trigger: "الالوان"
     replace: "الألوان"
-    word: true
-  - trigger: "الالوف"
-    replace: "الألوف"
     word: true
   - trigger: "الالومبية"
     replace: "الألومبية"
@@ -5446,15 +3667,6 @@ matches:
   - trigger: "الاليفة"
     replace: "الأليفة"
     word: true
-  - trigger: "الاليفه"
-    replace: "الأليفه"
-    word: true
-  - trigger: "الاليكتروني"
-    replace: "الإليكتروني"
-    word: true
-  - trigger: "الاليكترونية"
-    replace: "الإليكترونية"
-    word: true
   - trigger: "الاليم"
     replace: "الأليم"
     word: true
@@ -5464,14 +3676,8 @@ matches:
   - trigger: "الالين"
     replace: "الآلين"
     word: true
-  - trigger: "الاليه"
-    replace: "الآليه"
-    word: true
   - trigger: "الاليون"
     replace: "الآليون"
-    word: true
-  - trigger: "الاليين"
-    replace: "الآليين"
     word: true
   - trigger: "الام"
     replace: "الأم"
@@ -5481,9 +3687,6 @@ matches:
     word: true
   - trigger: "الامازون"
     replace: "الأمازون"
-    word: true
-  - trigger: "الامازونيات"
-    replace: "الأمازونيات"
     word: true
   - trigger: "الامازونية"
     replace: "الأمازونية"
@@ -5497,17 +3700,11 @@ matches:
   - trigger: "الامام"
     replace: "الأمام"
     word: true
-  - trigger: "الامامى"
-    replace: "الأمامى"
-    word: true
   - trigger: "الامامي"
     replace: "الأمامي"
     word: true
   - trigger: "الامامية"
     replace: "الأمامية"
-    word: true
-  - trigger: "الاماميه"
-    replace: "الأماميه"
     word: true
   - trigger: "الامان"
     replace: "الأمان"
@@ -5524,24 +3721,6 @@ matches:
   - trigger: "الامباير"
     replace: "الإمباير"
     word: true
-  - trigger: "الامبراطور"
-    replace: "الإمبراطور"
-    word: true
-  - trigger: "الامبراطورة"
-    replace: "الإمبراطورة"
-    word: true
-  - trigger: "الامبراطوري"
-    replace: "الإمبراطوري"
-    word: true
-  - trigger: "الامبراطوريات"
-    replace: "الإمبراطوريات"
-    word: true
-  - trigger: "الامبراطورية"
-    replace: "الإمبراطورية"
-    word: true
-  - trigger: "الامبراطوريه"
-    replace: "الإمبراطوريه"
-    word: true
   - trigger: "الامبريالية"
     replace: "الإمبريالية"
     word: true
@@ -5551,47 +3730,8 @@ matches:
   - trigger: "الامتار"
     replace: "الأمتار"
     word: true
-  - trigger: "الامتاك"
-    replace: "الإمتاك"
-    word: true
-  - trigger: "الامتثال"
-    replace: "الإمتثال"
-    word: true
-  - trigger: "الامتحان"
-    replace: "الإمتحان"
-    word: true
-  - trigger: "الامتحانات"
-    replace: "الإمتحانات"
-    word: true
-  - trigger: "الامتداد"
-    replace: "الإمتداد"
-    word: true
-  - trigger: "الامتصاص"
-    replace: "الإمتصاص"
-    word: true
   - trigger: "الامتعة"
     replace: "الأمتعة"
-    word: true
-  - trigger: "الامتعه"
-    replace: "الأمتعه"
-    word: true
-  - trigger: "الامتلاء"
-    replace: "الإمتلاء"
-    word: true
-  - trigger: "الامتلاك"
-    replace: "الإمتلاك"
-    word: true
-  - trigger: "الامتناع"
-    replace: "الإمتناع"
-    word: true
-  - trigger: "الامتنان"
-    replace: "الإمتنان"
-    word: true
-  - trigger: "الامتياز"
-    replace: "الإمتياز"
-    word: true
-  - trigger: "الامتيازات"
-    replace: "الإمتيازات"
     word: true
   - trigger: "الامثال"
     replace: "الأمثال"
@@ -5608,12 +3748,6 @@ matches:
   - trigger: "الامد"
     replace: "الأمد"
     word: true
-  - trigger: "الامداد"
-    replace: "الإمداد"
-    word: true
-  - trigger: "الامدادات"
-    replace: "الإمدادات"
-    word: true
   - trigger: "الامر"
     replace: "الأمر"
     word: true
@@ -5622,9 +3756,6 @@ matches:
     word: true
   - trigger: "الامراء"
     replace: "الأمراء"
-    word: true
-  - trigger: "الامراة"
-    replace: "الإمراة"
     word: true
   - trigger: "الامراض"
     replace: "الأمراض"
@@ -5641,9 +3772,6 @@ matches:
   - trigger: "الامريكتين"
     replace: "الأمريكتين"
     word: true
-  - trigger: "الامريكى"
-    replace: "الأمريكى"
-    word: true
   - trigger: "الامريكي"
     replace: "الأمريكي"
     word: true
@@ -5656,12 +3784,6 @@ matches:
   - trigger: "الامريكيتين"
     replace: "الأمريكيتين"
     word: true
-  - trigger: "الامريكين"
-    replace: "الأمريكين"
-    word: true
-  - trigger: "الامريكيه"
-    replace: "الأمريكيه"
-    word: true
   - trigger: "الامريكيون"
     replace: "الأمريكيون"
     word: true
@@ -5673,9 +3795,6 @@ matches:
     word: true
   - trigger: "الامس"
     replace: "الأمس"
-    word: true
-  - trigger: "الامساك"
-    replace: "الإمساك"
     word: true
   - trigger: "الامسيات"
     replace: "الأمسيات"
@@ -5704,9 +3823,6 @@ matches:
   - trigger: "الامكان"
     replace: "الإمكان"
     word: true
-  - trigger: "الامكانات"
-    replace: "الإمكانات"
-    word: true
   - trigger: "الامكانيات"
     replace: "الإمكانيات"
     word: true
@@ -5721,9 +3837,6 @@ matches:
     word: true
   - trigger: "الامل"
     replace: "الأمل"
-    word: true
-  - trigger: "الاملاء"
-    replace: "الإملاء"
     word: true
   - trigger: "الاملائي"
     replace: "الإملائي"
@@ -5752,12 +3865,6 @@ matches:
   - trigger: "الامنة"
     replace: "الآمنة"
     word: true
-  - trigger: "الامنه"
-    replace: "الآمنه"
-    word: true
-  - trigger: "الامنى"
-    replace: "الأمنى"
-    word: true
   - trigger: "الامني"
     replace: "الأمني"
     word: true
@@ -5766,12 +3873,6 @@ matches:
     word: true
   - trigger: "الامنية"
     replace: "الأمنية"
-    word: true
-  - trigger: "الامنيه"
-    replace: "الأمنيه"
-    word: true
-  - trigger: "الامه"
-    replace: "الأمه"
     word: true
   - trigger: "الامهات"
     replace: "الأمهات"
@@ -5793,9 +3894,6 @@ matches:
     word: true
   - trigger: "الامور"
     replace: "الأمور"
-    word: true
-  - trigger: "الامول"
-    replace: "الأمول"
     word: true
   - trigger: "الامومة"
     replace: "الأمومة"
@@ -5833,9 +3931,6 @@ matches:
   - trigger: "الاميرة"
     replace: "الأميرة"
     word: true
-  - trigger: "الاميركان"
-    replace: "الأميركان"
-    word: true
   - trigger: "الاميركي"
     replace: "الأميركي"
     word: true
@@ -5848,14 +3943,8 @@ matches:
   - trigger: "الاميركيين"
     replace: "الأميركيين"
     word: true
-  - trigger: "الاميره"
-    replace: "الأميره"
-    word: true
   - trigger: "الاميريكية"
     replace: "الأميريكية"
-    word: true
-  - trigger: "الاميش"
-    replace: "الأميش"
     word: true
   - trigger: "الامين"
     replace: "الأمين"
@@ -5871,9 +3960,6 @@ matches:
     word: true
   - trigger: "الان"
     replace: "الآن"
-    word: true
-  - trigger: "الانا"
-    replace: "الأنا"
     word: true
   - trigger: "الاناء"
     replace: "الإناء"
@@ -5902,9 +3988,6 @@ matches:
   - trigger: "الاناقة"
     replace: "الأناقة"
     word: true
-  - trigger: "الاناقه"
-    replace: "الاناقة"
-    word: true
   - trigger: "الاناكوندا"
     replace: "الأناكوندا"
     word: true
@@ -5920,17 +4003,11 @@ matches:
   - trigger: "الانباء"
     replace: "الأنباء"
     word: true
-  - trigger: "الانبعاث"
-    replace: "الإنبعاث"
-    word: true
   - trigger: "الانبو"
     replace: "الأنبو"
     word: true
   - trigger: "الانبوب"
     replace: "الأنبوب"
-    word: true
-  - trigger: "الانبوبة"
-    replace: "الأنبوبة"
     word: true
   - trigger: "الانبوبي"
     replace: "الأنبوبي"
@@ -5938,125 +4015,14 @@ matches:
   - trigger: "الانبوبية"
     replace: "الأنبوبية"
     word: true
-  - trigger: "الانبياء"
-    replace: "الأنبياء"
-    word: true
-  - trigger: "الانتاج"
-    replace: "الإنتاج"
-    word: true
-  - trigger: "الانتاجية"
-    replace: "الإنتاجية"
-    word: true
   - trigger: "الانتان"
     replace: "الإنتان"
-    word: true
-  - trigger: "الانتباه"
-    replace: "الانتباة"
-    word: true
-  - trigger: "الانتحار"
-    replace: "الإنتحار"
-    word: true
-  - trigger: "الانتحاري"
-    replace: "الإنتحاري"
-    word: true
-  - trigger: "الانتحارية"
-    replace: "الإنتحارية"
-    word: true
-  - trigger: "الانتحاريين"
-    replace: "الإنتحاريين"
-    word: true
-  - trigger: "الانتخاب"
-    replace: "الإنتخاب"
-    word: true
-  - trigger: "الانتخابات"
-    replace: "الإنتخابات"
-    word: true
-  - trigger: "الانتخابي"
-    replace: "الإنتخابي"
-    word: true
-  - trigger: "الانتخابية"
-    replace: "الإنتخابية"
     word: true
   - trigger: "الانتربرايز"
     replace: "الإنتربرايز"
     word: true
-  - trigger: "الانتربول"
-    replace: "الإنتربول"
-    word: true
   - trigger: "الانترفيرون"
     replace: "الإنترفيرون"
-    word: true
-  - trigger: "الانترنت"
-    replace: "الإنترنت"
-    word: true
-  - trigger: "الانترنيت"
-    replace: "الأنترنيت"
-    word: true
-  - trigger: "الانتزاع"
-    replace: "الإنتزاع"
-    word: true
-  - trigger: "الانتشاء"
-    replace: "الإنتشاء"
-    word: true
-  - trigger: "الانتشار"
-    replace: "الإنتشار"
-    word: true
-  - trigger: "الانتصاب"
-    replace: "الإنتصاب"
-    word: true
-  - trigger: "الانتصار"
-    replace: "الإنتصار"
-    word: true
-  - trigger: "الانتصارات"
-    replace: "الإنتصارات"
-    word: true
-  - trigger: "الانتضار"
-    replace: "الإنتضار"
-    word: true
-  - trigger: "الانتظار"
-    replace: "الإنتظار"
-    word: true
-  - trigger: "الانتعاش"
-    replace: "الإنتعاش"
-    word: true
-  - trigger: "الانتفاخ"
-    replace: "الإنتفاخ"
-    word: true
-  - trigger: "الانتفاضة"
-    replace: "الإنتفاضة"
-    word: true
-  - trigger: "الانتقاء"
-    replace: "الإنتقاء"
-    word: true
-  - trigger: "الانتقاد"
-    replace: "الإنتقاد"
-    word: true
-  - trigger: "الانتقادات"
-    replace: "الإنتقادات"
-    word: true
-  - trigger: "الانتقال"
-    replace: "الإنتقال"
-    word: true
-  - trigger: "الانتقالية"
-    replace: "الإنتقالية"
-    word: true
-  - trigger: "الانتقام"
-    replace: "الإنتقام"
-    word: true
-  - trigger: "الانتماء"
-    replace: "الإنتماء"
-    word: true
-  - trigger: "الانتهاء"
-    replace: "الإنتهاء"
-    word: true
-  - trigger: "الانتهاك"
-    replace: "الإنتهاك"
-    word: true
-  - trigger: "الانتهاكات"
-    replace: "الإنتهاكات"
-    word: true
-  - trigger: "الانثروبولوجيا"
-    replace: "الأنثروبولوجيا"
     word: true
   - trigger: "الانثوي"
     replace: "الأنثوي"
@@ -6067,41 +4033,8 @@ matches:
   - trigger: "الانثى"
     replace: "الأنثى"
     word: true
-  - trigger: "الانثي"
-    replace: "الأنثي"
-    word: true
-  - trigger: "الانجاب"
-    replace: "الإنجاب"
-    word: true
   - trigger: "الانجاز"
     replace: "الإنجاز"
-    word: true
-  - trigger: "الانجازات"
-    replace: "الإنجازات"
-    word: true
-  - trigger: "الانجذاب"
-    replace: "الإنجذاب"
-    word: true
-  - trigger: "الانجراف"
-    replace: "الإنجراف"
-    word: true
-  - trigger: "الانجليز"
-    replace: "الإنجليز"
-    word: true
-  - trigger: "الانجليزى"
-    replace: "الأنجليزى"
-    word: true
-  - trigger: "الانجليزي"
-    replace: "الإنجليزي"
-    word: true
-  - trigger: "الانجليزية"
-    replace: "الإنجليزية"
-    word: true
-  - trigger: "الانجليزيه"
-    replace: "الإنجليزيه"
-    word: true
-  - trigger: "الانجيل"
-    replace: "الإنجيل"
     word: true
   - trigger: "الانجيلية"
     replace: "الإنجيلية"
@@ -6109,89 +4042,20 @@ matches:
   - trigger: "الانحاء"
     replace: "الأنحاء"
     word: true
-  - trigger: "الانحدار"
-    replace: "الإنحدار"
-    word: true
-  - trigger: "الانحراف"
-    replace: "الإنحراف"
-    word: true
-  - trigger: "الانحرافات"
-    replace: "الإنحرافات"
-    word: true
-  - trigger: "الانحطاط"
-    replace: "الإنحطاط"
-    word: true
-  - trigger: "الانحلال"
-    replace: "الإنحلال"
-    word: true
-  - trigger: "الانحناء"
-    replace: "الإنحناء"
-    word: true
-  - trigger: "الانحياز"
-    replace: "الإنحياز"
-    word: true
-  - trigger: "الانخراط"
-    replace: "الإنخراط"
-    word: true
-  - trigger: "الانخفاض"
-    replace: "الإنخفاض"
-    word: true
   - trigger: "الاندروميدا"
     replace: "الأندروميدا"
-    word: true
-  - trigger: "الاندفاع"
-    replace: "الإندفاع"
-    word: true
-  - trigger: "الاندماج"
-    replace: "الإندماج"
-    word: true
-  - trigger: "الاندهاش"
-    replace: "الإندهاش"
     word: true
   - trigger: "الاندية"
     replace: "الأندية"
     word: true
-  - trigger: "الانديز"
-    replace: "الأنديز"
-    word: true
   - trigger: "الانذار"
     replace: "الإنذار"
-    word: true
-  - trigger: "الانذارات"
-    replace: "الإنذارات"
-    word: true
-  - trigger: "الانذال"
-    replace: "الأنذال"
-    word: true
-  - trigger: "الانزال"
-    replace: "الإنزال"
-    word: true
-  - trigger: "الانزعاج"
-    replace: "الإنزعاج"
-    word: true
-  - trigger: "الانزلاق"
-    replace: "الإنزلاق"
-    word: true
-  - trigger: "الانزيم"
-    replace: "الأنزيم"
-    word: true
-  - trigger: "الانزيمات"
-    replace: "الإنزيمات"
     word: true
   - trigger: "الانساب"
     replace: "الأنساب"
     word: true
   - trigger: "الانسات"
     replace: "الآنسات"
-    word: true
-  - trigger: "الانسان"
-    replace: "الإنسان"
-    word: true
-  - trigger: "الانسانة"
-    replace: "الإنسانة"
-    word: true
-  - trigger: "الانسانى"
-    replace: "الإنسانى"
     word: true
   - trigger: "الانساني"
     replace: "الإنساني"
@@ -6202,41 +4066,14 @@ matches:
   - trigger: "الانسانية"
     replace: "الإنسانية"
     word: true
-  - trigger: "الانسانيه"
-    replace: "الإنسانيه"
-    word: true
   - trigger: "الانسب"
     replace: "الأنسب"
     word: true
   - trigger: "الانسة"
     replace: "الآنسة"
     word: true
-  - trigger: "الانسجام"
-    replace: "الإنسجام"
-    word: true
   - trigger: "الانسجة"
     replace: "الأنسجة"
-    word: true
-  - trigger: "الانسجه"
-    replace: "الانسجة"
-    word: true
-  - trigger: "الانسحاب"
-    replace: "الإنسحاب"
-    word: true
-  - trigger: "الانسداد"
-    replace: "الإنسداد"
-    word: true
-  - trigger: "الانسلال"
-    replace: "الإنسلال"
-    word: true
-  - trigger: "الانسه"
-    replace: "الآنسه"
-    word: true
-  - trigger: "الانسولين"
-    replace: "الأنسولين"
-    word: true
-  - trigger: "الانش"
-    replace: "الإنش"
     word: true
   - trigger: "الانشاء"
     replace: "الإنشاء"
@@ -6247,20 +4084,8 @@ matches:
   - trigger: "الانشاد"
     replace: "الإنشاد"
     word: true
-  - trigger: "الانشطار"
-    replace: "الإنشطار"
-    word: true
   - trigger: "الانشطة"
     replace: "الأنشطة"
-    word: true
-  - trigger: "الانشطه"
-    replace: "الانشطة"
-    word: true
-  - trigger: "الانشغال"
-    replace: "الإنشغال"
-    word: true
-  - trigger: "الانشقاق"
-    replace: "الإنشقاق"
     word: true
   - trigger: "الانشنتس"
     replace: "الإنشنتس"
@@ -6283,38 +4108,8 @@ matches:
   - trigger: "الانصاف"
     replace: "الإنصاف"
     word: true
-  - trigger: "الانصراف"
-    replace: "الإنصراف"
-    word: true
-  - trigger: "الانصهار"
-    replace: "الإنصهار"
-    word: true
-  - trigger: "الانصياع"
-    replace: "الإنصياع"
-    word: true
-  - trigger: "الانضباط"
-    replace: "الإنضباط"
-    word: true
-  - trigger: "الانضمام"
-    replace: "الإنضمام"
-    word: true
-  - trigger: "الانطباع"
-    replace: "الإنطباع"
-    word: true
-  - trigger: "الانطباعات"
-    replace: "الإنطباعات"
-    word: true
-  - trigger: "الانطلاق"
-    replace: "الإنطلاق"
-    word: true
-  - trigger: "الانطلاقة"
-    replace: "الإنطلاقة"
-    word: true
   - trigger: "الانظار"
     replace: "الأنظار"
-    word: true
-  - trigger: "الانظمام"
-    replace: "الإنظمام"
     word: true
   - trigger: "الانظمة"
     replace: "الأنظمة"
@@ -6325,23 +4120,8 @@ matches:
   - trigger: "الانعاش"
     replace: "الإنعاش"
     word: true
-  - trigger: "الانعزال"
-    replace: "الإنعزال"
-    word: true
-  - trigger: "الانعطاف"
-    replace: "الإنعطاف"
-    word: true
-  - trigger: "الانعكاس"
-    replace: "الإنعكاس"
-    word: true
   - trigger: "الانغام"
     replace: "الأنغام"
-    word: true
-  - trigger: "الانغلاق"
-    replace: "الإنغلاق"
-    word: true
-  - trigger: "الانغماس"
-    replace: "الإنغماس"
     word: true
   - trigger: "الانف"
     replace: "الأنف"
@@ -6352,44 +4132,8 @@ matches:
   - trigger: "الانفاق"
     replace: "الأنفاق"
     word: true
-  - trigger: "الانفتاح"
-    replace: "الإنفتاح"
-    word: true
-  - trigger: "الانفجار"
-    replace: "الإنفجار"
-    word: true
-  - trigger: "الانفجارات"
-    replace: "الإنفجارات"
-    word: true
-  - trigger: "الانفراد"
-    replace: "الإنفراد"
-    word: true
-  - trigger: "الانفرادى"
-    replace: "الإنفرادى"
-    word: true
-  - trigger: "الانفرادي"
-    replace: "الإنفرادي"
-    word: true
   - trigger: "الانفس"
     replace: "الأنفس"
-    word: true
-  - trigger: "الانفصال"
-    replace: "الإنفصال"
-    word: true
-  - trigger: "الانفصالات"
-    replace: "الإنفصالات"
-    word: true
-  - trigger: "الانفصام"
-    replace: "الإنفصام"
-    word: true
-  - trigger: "الانفعال"
-    replace: "الإنفعال"
-    word: true
-  - trigger: "الانفعالات"
-    replace: "الإنفعالات"
-    word: true
-  - trigger: "الانفلونزا"
-    replace: "الإنفلونزا"
     word: true
   - trigger: "الانفي"
     replace: "الأنفي"
@@ -6397,35 +4141,11 @@ matches:
   - trigger: "الانفية"
     replace: "الأنفية"
     word: true
-  - trigger: "الانقاذ"
-    replace: "الإنقاذ"
-    word: true
   - trigger: "الانقاض"
     replace: "الأنقاض"
     word: true
-  - trigger: "الانقباضات"
-    replace: "الإنقباضات"
-    word: true
-  - trigger: "الانقراض"
-    replace: "الإنقراض"
-    word: true
-  - trigger: "الانقسام"
-    replace: "الإنقسام"
-    word: true
-  - trigger: "الانقضاض"
-    replace: "الإنقضاض"
-    word: true
-  - trigger: "الانقطاع"
-    replace: "الإنقطاع"
-    word: true
-  - trigger: "الانقلاب"
-    replace: "الإنقلاب"
-    word: true
   - trigger: "الانقليس"
     replace: "الأنقليس"
-    word: true
-  - trigger: "الانقياد"
-    replace: "الإنقياد"
     word: true
   - trigger: "الانكا"
     replace: "الإنكا"
@@ -6433,26 +4153,8 @@ matches:
   - trigger: "الانكار"
     replace: "الإنكار"
     word: true
-  - trigger: "الانكسار"
-    replace: "الإنكسار"
-    word: true
-  - trigger: "الانكليز"
-    replace: "الإنكليز"
-    word: true
-  - trigger: "الانكليزي"
-    replace: "الإنكليزي"
-    word: true
-  - trigger: "الانكليزية"
-    replace: "الإنكليزية"
-    word: true
-  - trigger: "الانكماش"
-    replace: "الإنكماش"
-    word: true
   - trigger: "الانماط"
     replace: "الأنماط"
-    word: true
-  - trigger: "الانمي"
-    replace: "الأنمي"
     word: true
   - trigger: "الانهاء"
     replace: "الإنهاء"
@@ -6462,12 +4164,6 @@ matches:
     word: true
   - trigger: "الانهاك"
     replace: "الإنهاك"
-    word: true
-  - trigger: "الانهيار"
-    replace: "الإنهيار"
-    word: true
-  - trigger: "الانهيارات"
-    replace: "الإنهيارات"
     word: true
   - trigger: "الانوار"
     replace: "الأنوار"
@@ -6511,32 +4207,11 @@ matches:
   - trigger: "الاهالي"
     replace: "الأهالي"
     word: true
-  - trigger: "الاهانات"
-    replace: "الإهانات"
-    word: true
   - trigger: "الاهانة"
     replace: "الإهانة"
     word: true
-  - trigger: "الاهانه"
-    replace: "الإهانه"
-    word: true
   - trigger: "الاهبل"
     replace: "الأهبل"
-    word: true
-  - trigger: "الاهتزاز"
-    replace: "الإهتزاز"
-    word: true
-  - trigger: "الاهتزازات"
-    replace: "الإهتزازات"
-    word: true
-  - trigger: "الاهتمام"
-    replace: "الإهتمام"
-    word: true
-  - trigger: "الاهتمامات"
-    replace: "الإهتمامات"
-    word: true
-  - trigger: "الاهتياج"
-    replace: "الإهتياج"
     word: true
   - trigger: "الاهداء"
     replace: "الإهداء"
@@ -6559,9 +4234,6 @@ matches:
   - trigger: "الاهلية"
     replace: "الأهلية"
     word: true
-  - trigger: "الاهليه"
-    replace: "الأهليه"
-    word: true
   - trigger: "الاهم"
     replace: "الأهم"
     word: true
@@ -6570,9 +4242,6 @@ matches:
     word: true
   - trigger: "الاهمية"
     replace: "الأهمية"
-    word: true
-  - trigger: "الاهميه"
-    replace: "الاهمية"
     word: true
   - trigger: "الاهوار"
     replace: "الأهوار"
@@ -6618,9 +4287,6 @@ matches:
     word: true
   - trigger: "الاوتوبوتس"
     replace: "الأوتوبوتس"
-    word: true
-  - trigger: "الاوتوبيس"
-    replace: "الأوتوبيس"
     word: true
   - trigger: "الاوتوماتيكي"
     replace: "الأوتوماتيكي"
@@ -6706,9 +4372,6 @@ matches:
   - trigger: "الاوركيد"
     replace: "الأوركيد"
     word: true
-  - trigger: "الاوروبى"
-    replace: "الأوروبى"
-    word: true
   - trigger: "الاوروبي"
     replace: "الأوروبي"
     word: true
@@ -6781,9 +4444,6 @@ matches:
   - trigger: "الاوعية"
     replace: "الأوعية"
     word: true
-  - trigger: "الاوعيه"
-    replace: "الأوعيه"
-    word: true
   - trigger: "الاوغاد"
     replace: "الأوغاد"
     word: true
@@ -6814,9 +4474,6 @@ matches:
   - trigger: "الاوكسيتوسين"
     replace: "الأوكسيتوسين"
     word: true
-  - trigger: "الاوكسيجين"
-    replace: "الأوكسيجين"
-    word: true
   - trigger: "الاوكسيكودون"
     replace: "الأوكسيكودون"
     word: true
@@ -6826,20 +4483,11 @@ matches:
   - trigger: "الاولاد"
     replace: "الأولاد"
     word: true
-  - trigger: "الاولة"
-    replace: "الأولة"
-    word: true
   - trigger: "الاولمبي"
     replace: "الأولمبي"
     word: true
-  - trigger: "الاولمبيات"
-    replace: "الأولمبيات"
-    word: true
   - trigger: "الاولمبياد"
     replace: "الأولمبياد"
-    word: true
-  - trigger: "الاولمبية"
-    replace: "الأولمبية"
     word: true
   - trigger: "الاولويات"
     replace: "الأولويات"
@@ -6852,9 +4500,6 @@ matches:
     word: true
   - trigger: "الاولى"
     replace: "الأولى"
-    word: true
-  - trigger: "الاولي"
-    replace: "الأولي"
     word: true
   - trigger: "الاولياء"
     replace: "الأولياء"
@@ -6874,9 +4519,6 @@ matches:
   - trigger: "الاولين"
     replace: "الأولين"
     word: true
-  - trigger: "الاوليه"
-    replace: "الأوليه"
-    word: true
   - trigger: "الاوليين"
     replace: "الأوليين"
     word: true
@@ -6885,9 +4527,6 @@ matches:
     word: true
   - trigger: "الاوميغا"
     replace: "الأوميغا"
-    word: true
-  - trigger: "الاون"
-    replace: "الأون"
     word: true
   - trigger: "الاونا"
     replace: "الأونا"
@@ -6898,20 +4537,11 @@ matches:
   - trigger: "الاونة"
     replace: "الآونة"
     word: true
-  - trigger: "الاونه"
-    replace: "الآونه"
-    word: true
   - trigger: "الاوهام"
     replace: "الأوهام"
     word: true
   - trigger: "الاوود"
     replace: "الأوود"
-    word: true
-  - trigger: "الاي"
-    replace: "الآي"
-    word: true
-  - trigger: "الايائل"
-    replace: "الأيائل"
     word: true
   - trigger: "الايات"
     replace: "الآيات"
@@ -6930,9 +4560,6 @@ matches:
     word: true
   - trigger: "الايبود"
     replace: "الآيبود"
-    word: true
-  - trigger: "الايبولا"
-    replace: "الإيبولا"
     word: true
   - trigger: "الاية"
     replace: "الآية"
@@ -6955,14 +4582,8 @@ matches:
   - trigger: "الايجاب"
     replace: "الإيجاب"
     word: true
-  - trigger: "الايجابى"
-    replace: "الإيجابى"
-    word: true
   - trigger: "الايجابي"
     replace: "الإيجابي"
-    word: true
-  - trigger: "الايجابيات"
-    replace: "الإيجابيات"
     word: true
   - trigger: "الايجابية"
     replace: "الإيجابية"
@@ -6994,9 +4615,6 @@ matches:
   - trigger: "الايدز"
     replace: "الإيدز"
     word: true
-  - trigger: "الايدى"
-    replace: "الأيدى"
-    word: true
   - trigger: "الايدي"
     replace: "الأيدي"
     word: true
@@ -7018,26 +4636,11 @@ matches:
   - trigger: "الايرانية"
     replace: "الإيرانية"
     word: true
-  - trigger: "الايرانيون"
-    replace: "الإيرانيون"
-    word: true
   - trigger: "الايرانيين"
     replace: "الإيرانيين"
     word: true
   - trigger: "الايرل"
     replace: "الإيرل"
-    word: true
-  - trigger: "الايرلندى"
-    replace: "الأيرلندى"
-    word: true
-  - trigger: "الايرلندي"
-    replace: "الإيرلندي"
-    word: true
-  - trigger: "الايرلندية"
-    replace: "الإيرلندية"
-    word: true
-  - trigger: "الايرلنديون"
-    replace: "الأيرلنديون"
     word: true
   - trigger: "الايرلنديين"
     replace: "الإيرلنديين"
@@ -7054,9 +4657,6 @@ matches:
   - trigger: "الايسر"
     replace: "الأيسر"
     word: true
-  - trigger: "الايسكريم"
-    replace: "الآيسكريم"
-    word: true
   - trigger: "الايصال"
     replace: "الإيصال"
     word: true
@@ -7066,23 +4666,14 @@ matches:
   - trigger: "الايض"
     replace: "الأيض"
     word: true
-  - trigger: "الايضاح"
-    replace: "الإيضاح"
-    word: true
   - trigger: "الايضية"
     replace: "الأيضية"
-    word: true
-  - trigger: "الايطالى"
-    replace: "الإيطالى"
     word: true
   - trigger: "الايطالي"
     replace: "الإيطالي"
     word: true
   - trigger: "الايطالية"
     replace: "الإيطالية"
-    word: true
-  - trigger: "الايطاليه"
-    replace: "الإيطاليه"
     word: true
   - trigger: "الايطاليون"
     replace: "الإيطاليون"
@@ -7093,20 +4684,11 @@ matches:
   - trigger: "الايفاء"
     replace: "الإيفاء"
     word: true
-  - trigger: "الايفون"
-    replace: "الآيفون"
-    word: true
-  - trigger: "الايقاظ"
-    replace: "الإيقاظ"
-    word: true
   - trigger: "الايقاع"
     replace: "الإيقاع"
     word: true
   - trigger: "الايقاعات"
     replace: "الإيقاعات"
-    word: true
-  - trigger: "الايقاعي"
-    replace: "الإيقاعي"
     word: true
   - trigger: "الايقاف"
     replace: "الإيقاف"
@@ -7141,17 +4723,8 @@ matches:
   - trigger: "الايمن"
     replace: "الأيمن"
     word: true
-  - trigger: "الايمو"
-    replace: "الإيمو"
-    word: true
   - trigger: "الايمي"
     replace: "الإيمي"
-    word: true
-  - trigger: "الايميل"
-    replace: "الإيميل"
-    word: true
-  - trigger: "الايميلات"
-    replace: "الإيميلات"
     word: true
   - trigger: "الايواء"
     replace: "الإيواء"
@@ -7282,9 +4855,6 @@ matches:
   - trigger: "الترسانه"
     replace: "الترسانة"
     word: true
-  - trigger: "الترفيه"
-    replace: "الترفية"
-    word: true
   - trigger: "الترقوه"
     replace: "الترقوة"
     word: true
@@ -7342,9 +4912,6 @@ matches:
   - trigger: "التهويه"
     replace: "التهوية"
     word: true
-  - trigger: "التوجيه"
-    replace: "التوجية"
-    word: true
   - trigger: "التوراه"
     replace: "التوراة"
     word: true
@@ -7368,12 +4935,6 @@ matches:
     word: true
   - trigger: "الثقافه"
     replace: "الثقافة"
-    word: true
-  - trigger: "الثكنه"
-    replace: "الثكنة"
-    word: true
-  - trigger: "الثلاثمائه"
-    replace: "الثلاثمائة"
     word: true
   - trigger: "الجبابره"
     replace: "الجبابرة"
@@ -7479,9 +5040,6 @@ matches:
     word: true
   - trigger: "الخليفه"
     replace: "الخليفة"
-    word: true
-  - trigger: "الخمسمائه"
-    replace: "الخمسمائة"
     word: true
   - trigger: "الخيانه"
     replace: "الخيانة"
@@ -7684,9 +5242,6 @@ matches:
   - trigger: "السناره"
     replace: "السنارة"
     word: true
-  - trigger: "السوسته"
-    replace: "السوستة"
-    word: true
   - trigger: "السياده"
     replace: "السيادة"
     word: true
@@ -7756,9 +5311,6 @@ matches:
   - trigger: "الشوربه"
     replace: "الشوربة"
     word: true
-  - trigger: "الشوكلاته"
-    replace: "الشوكلاتة"
-    word: true
   - trigger: "الشوكولاطه"
     replace: "الشوكولاطة"
     word: true
@@ -7767,9 +5319,6 @@ matches:
     word: true
   - trigger: "الشيعه"
     replace: "الشيعة"
-    word: true
-  - trigger: "الشيكولاته"
-    replace: "الشيكولاتة"
     word: true
   - trigger: "الصاله"
     replace: "الصالة"
@@ -7842,9 +5391,6 @@ matches:
     word: true
   - trigger: "العانه"
     replace: "العانة"
-    word: true
-  - trigger: "العبائه"
-    replace: "العبائة"
     word: true
   - trigger: "العباقره"
     replace: "العباقرة"
@@ -7942,9 +5488,6 @@ matches:
   - trigger: "الفتوه"
     replace: "الفتوة"
     word: true
-  - trigger: "الفخامه"
-    replace: "الفخامة"
-    word: true
   - trigger: "الفديه"
     replace: "الفدية"
     word: true
@@ -7978,17 +5521,11 @@ matches:
   - trigger: "الفعاليه"
     replace: "الفعالية"
     word: true
-  - trigger: "الفلاسفه"
-    replace: "الفلاسفة"
-    word: true
   - trigger: "الفلسفه"
     replace: "الفلسفة"
     word: true
   - trigger: "الفلوجه"
     replace: "الفلوجة"
-    word: true
-  - trigger: "الفواكه"
-    replace: "الفواكة"
     word: true
   - trigger: "الفياضه"
     replace: "الفياضة"
@@ -8004,9 +5541,6 @@ matches:
     word: true
   - trigger: "القثطره"
     replace: "القثطرة"
-    word: true
-  - trigger: "القحبه"
-    replace: "القحبة"
     word: true
   - trigger: "القذراه"
     replace: "القذراة"
@@ -8109,9 +5643,6 @@ matches:
     word: true
   - trigger: "الكعبره"
     replace: "الكعبرة"
-    word: true
-  - trigger: "الكفائه"
-    replace: "الكفائة"
     word: true
   - trigger: "الكفايه"
     replace: "الكفاية"
@@ -8217,12 +5748,6 @@ matches:
   - trigger: "المبوله"
     replace: "المبولة"
     word: true
-  - trigger: "المتبناه"
-    replace: "المتبناة"
-    word: true
-  - trigger: "المتنزه"
-    replace: "المتنزة"
-    word: true
   - trigger: "المتوفاه"
     replace: "المتوفاة"
     word: true
@@ -8304,9 +5829,6 @@ matches:
   - trigger: "المشواه"
     replace: "المشواة"
     word: true
-  - trigger: "المشيمه"
-    replace: "المشيمة"
-    word: true
   - trigger: "المصارحه"
     replace: "المصارحة"
     word: true
@@ -8351,9 +5873,6 @@ matches:
     word: true
   - trigger: "المغطاه"
     replace: "المغطاة"
-    word: true
-  - trigger: "المفاجاه"
-    replace: "المفاجاة"
     word: true
   - trigger: "المفارقه"
     replace: "المفارقة"
@@ -8415,9 +5934,6 @@ matches:
   - trigger: "المناقصه"
     replace: "المناقصة"
     word: true
-  - trigger: "المنتزه"
-    replace: "المنتزة"
-    word: true
   - trigger: "المنفعه"
     replace: "المنفعة"
     word: true
@@ -8447,9 +5963,6 @@ matches:
     word: true
   - trigger: "النافوره"
     replace: "النافورة"
-    word: true
-  - trigger: "النبؤه"
-    replace: "النبؤة"
     word: true
   - trigger: "النبوه"
     replace: "النبوة"
@@ -8505,9 +6018,6 @@ matches:
   - trigger: "النميمه"
     replace: "النميمة"
     word: true
-  - trigger: "النهارده"
-    replace: "النهاردة"
-    word: true
   - trigger: "النواه"
     replace: "النواة"
     word: true
@@ -8555,9 +6065,6 @@ matches:
     word: true
   - trigger: "الوجنه"
     replace: "الوجنة"
-    word: true
-  - trigger: "الوجه"
-    replace: "الوجة"
     word: true
   - trigger: "الوذمه"
     replace: "الوذمة"
@@ -8851,9 +6358,6 @@ matches:
   - trigger: "بإباده"
     replace: "بإبادة"
     word: true
-  - trigger: "بإتجاه"
-    replace: "بإتجاة"
-    word: true
   - trigger: "بإثاره"
     replace: "بإثارة"
     word: true
@@ -9079,86 +6583,17 @@ matches:
   - trigger: "بالأوعيه"
     replace: "بالأوعية"
     word: true
-  - trigger: "بالإثاره"
-    replace: "بالإثارة"
-    word: true
-  - trigger: "بالإجابه"
-    replace: "بالإجابة"
-    word: true
-  - trigger: "بالإجازه"
-    replace: "بالإجازة"
-    word: true
-  - trigger: "بالإداره"
-    replace: "بالإدارة"
-    word: true
-  - trigger: "بالإدانه"
-    replace: "بالإدانة"
-    word: true
-  - trigger: "بالإذاعه"
-    replace: "بالإذاعة"
-    word: true
-  - trigger: "بالإراده"
-    replace: "بالإرادة"
-    word: true
-  - trigger: "بالإستجابه"
-    replace: "بالإستجابة"
-    word: true
-  - trigger: "بالإستعانه"
-    replace: "بالإستعانة"
-    word: true
-  - trigger: "بالإستقاله"
-    replace: "بالإستقالة"
-    word: true
-  - trigger: "بالإشاره"
-    replace: "بالإشارة"
-    word: true
-  - trigger: "بالإصابه"
-    replace: "بالإصابة"
-    word: true
-  - trigger: "بالإضاءه"
-    replace: "بالإضاءة"
-    word: true
-  - trigger: "بالإطاحه"
-    replace: "بالإطاحة"
-    word: true
-  - trigger: "بالإظافه"
-    replace: "بالإظافة"
-    word: true
-  - trigger: "بالإقامه"
-    replace: "بالإقامة"
-    word: true
-  - trigger: "بالإنسانيه"
-    replace: "بالإنسانية"
-    word: true
-  - trigger: "بالإهانه"
-    replace: "بالإهانة"
-    word: true
   - trigger: "بالاب"
     replace: "بالأب"
     word: true
   - trigger: "بالاباء"
     replace: "بالآباء"
     word: true
-  - trigger: "بالابتزاز"
-    replace: "بالإبتزاز"
-    word: true
-  - trigger: "بالابتسام"
-    replace: "بالإبتسام"
-    word: true
-  - trigger: "بالابتعاد"
-    replace: "بالإبتعاد"
-    word: true
   - trigger: "بالابحاث"
     replace: "بالأبحاث"
     word: true
-  - trigger: "بالابحار"
-    replace: "بالإبحار"
-    word: true
   - trigger: "بالابر"
     replace: "بالإبر"
-    word: true
-  - trigger: "بالابرة"
-    replace: "بالإبرة"
     word: true
   - trigger: "بالابرياء"
     replace: "بالأبرياء"
@@ -9181,21 +6616,6 @@ matches:
   - trigger: "بالابيض"
     replace: "بالأبيض"
     word: true
-  - trigger: "بالاتجاه"
-    replace: "بالإتجاه"
-    word: true
-  - trigger: "بالاتحاد"
-    replace: "بالإتحاد"
-    word: true
-  - trigger: "بالاتصال"
-    replace: "بالإتصال"
-    word: true
-  - trigger: "بالاتصالات"
-    replace: "بالإتصالات"
-    word: true
-  - trigger: "بالاتفاق"
-    replace: "بالإتفاق"
-    word: true
   - trigger: "بالاتي"
     replace: "بالآتي"
     word: true
@@ -9211,23 +6631,14 @@ matches:
   - trigger: "بالاثداء"
     replace: "بالأثداء"
     word: true
-  - trigger: "بالاثنين"
-    replace: "بالإثنين"
-    word: true
   - trigger: "بالاجابة"
     replace: "بالإجابة"
     word: true
   - trigger: "بالاجابه"
     replace: "بالاجابة"
     word: true
-  - trigger: "بالاجازة"
-    replace: "بالإجازة"
-    word: true
   - trigger: "بالاجبار"
     replace: "بالإجبار"
-    word: true
-  - trigger: "بالاجتماع"
-    replace: "بالإجتماع"
     word: true
   - trigger: "بالاجر"
     replace: "بالأجر"
@@ -9259,24 +6670,6 @@ matches:
   - trigger: "بالاجوبة"
     replace: "بالأجوبة"
     word: true
-  - trigger: "بالاحباط"
-    replace: "بالإحباط"
-    word: true
-  - trigger: "بالاحترام"
-    replace: "بالإحترام"
-    word: true
-  - trigger: "بالاحتفاظ"
-    replace: "بالإحتفاظ"
-    word: true
-  - trigger: "بالاحتفال"
-    replace: "بالإحتفال"
-    word: true
-  - trigger: "بالاحتمالات"
-    replace: "بالإحتمالات"
-    word: true
-  - trigger: "بالاحتيال"
-    replace: "بالإحتيال"
-    word: true
   - trigger: "بالاحجار"
     replace: "بالأحجار"
     word: true
@@ -9289,14 +6682,8 @@ matches:
   - trigger: "بالاحراج"
     replace: "بالإحراج"
     word: true
-  - trigger: "بالاحرف"
-    replace: "بالأحرف"
-    word: true
   - trigger: "بالاحرى"
     replace: "بالأحرى"
-    word: true
-  - trigger: "بالاحساس"
-    replace: "بالإحساس"
     word: true
   - trigger: "بالاحصنة"
     replace: "بالأحصنة"
@@ -9327,33 +6714,6 @@ matches:
     word: true
   - trigger: "بالاخت"
     replace: "بالأخت"
-    word: true
-  - trigger: "بالاختباء"
-    replace: "بالإختباء"
-    word: true
-  - trigger: "بالاختبار"
-    replace: "بالإختبار"
-    word: true
-  - trigger: "بالاختبارات"
-    replace: "بالإختبارات"
-    word: true
-  - trigger: "بالاختراق"
-    replace: "بالإختراق"
-    word: true
-  - trigger: "بالاختفاء"
-    replace: "بالإختفاء"
-    word: true
-  - trigger: "بالاختلاس"
-    replace: "بالإختلاس"
-    word: true
-  - trigger: "بالاختلاف"
-    replace: "بالإختلاف"
-    word: true
-  - trigger: "بالاختناق"
-    replace: "بالإختناق"
-    word: true
-  - trigger: "بالاختيار"
-    replace: "بالإختيار"
     word: true
   - trigger: "بالاخذ"
     replace: "بالأخذ"
@@ -9457,21 +6817,6 @@ matches:
   - trigger: "بالاربعين"
     replace: "بالأربعين"
     word: true
-  - trigger: "بالارتباط"
-    replace: "بالإرتباط"
-    word: true
-  - trigger: "بالارتباك"
-    replace: "بالإرتباك"
-    word: true
-  - trigger: "بالارتفاع"
-    replace: "بالإرتفاع"
-    word: true
-  - trigger: "بالارتياب"
-    replace: "بالإرتياب"
-    word: true
-  - trigger: "بالارتياح"
-    replace: "بالإرتياح"
-    word: true
   - trigger: "بالارجاء"
     replace: "بالأرجاء"
     word: true
@@ -9483,9 +6828,6 @@ matches:
     word: true
   - trigger: "بالارز"
     replace: "بالأرز"
-    word: true
-  - trigger: "بالارسال"
-    replace: "بالإرسال"
     word: true
   - trigger: "بالارض"
     replace: "بالأرض"
@@ -9502,9 +6844,6 @@ matches:
   - trigger: "بالارهاب"
     replace: "بالإرهاب"
     word: true
-  - trigger: "بالارهابيين"
-    replace: "بالإرهابيين"
-    word: true
   - trigger: "بالارهاق"
     replace: "بالإرهاق"
     word: true
@@ -9519,9 +6858,6 @@ matches:
     word: true
   - trigger: "بالازرق"
     replace: "بالأزرق"
-    word: true
-  - trigger: "بالازعاج"
-    replace: "بالإزعاج"
     word: true
   - trigger: "بالازهار"
     replace: "بالأزهار"
@@ -9547,89 +6883,20 @@ matches:
   - trigger: "بالاساطير"
     replace: "بالأساطير"
     word: true
-  - trigger: "بالاسباب"
-    replace: "بالأسباب"
-    word: true
-  - trigger: "بالاسبانية"
-    replace: "بالإسبانية"
-    word: true
   - trigger: "بالاسبوع"
     replace: "بالأسبوع"
     word: true
   - trigger: "بالاستاذ"
     replace: "بالأستاذ"
     word: true
-  - trigger: "بالاستثمار"
-    replace: "بالإستثمار"
-    word: true
-  - trigger: "بالاستجابة"
-    replace: "بالإستجابة"
-    word: true
-  - trigger: "بالاستجواب"
-    replace: "بالإستجواب"
-    word: true
-  - trigger: "بالاستحمام"
-    replace: "بالإستحمام"
-    word: true
-  - trigger: "بالاستخبارات"
-    replace: "بالإستخبارات"
-    word: true
-  - trigger: "بالاسترخاء"
-    replace: "بالإسترخاء"
-    word: true
-  - trigger: "بالاستسلام"
-    replace: "بالإستسلام"
-    word: true
-  - trigger: "بالاستعانة"
-    replace: "بالإستعانة"
-    word: true
   - trigger: "بالاستعانه"
     replace: "بالاستعانة"
-    word: true
-  - trigger: "بالاستعداد"
-    replace: "بالإستعداد"
     word: true
   - trigger: "بالاستفاده"
     replace: "بالاستفادة"
     word: true
-  - trigger: "بالاستقالة"
-    replace: "بالإستقالة"
-    word: true
   - trigger: "بالاستقاله"
     replace: "بالاستقالة"
-    word: true
-  - trigger: "بالاستقبال"
-    replace: "بالإستقبال"
-    word: true
-  - trigger: "بالاستقرار"
-    replace: "بالإستقرار"
-    word: true
-  - trigger: "بالاستكشاف"
-    replace: "بالإستكشاف"
-    word: true
-  - trigger: "بالاستماع"
-    replace: "بالإستماع"
-    word: true
-  - trigger: "بالاستمتاع"
-    replace: "بالإستمتاع"
-    word: true
-  - trigger: "بالاستمرار"
-    replace: "بالإستمرار"
-    word: true
-  - trigger: "بالاستمناء"
-    replace: "بالإستمناء"
-    word: true
-  - trigger: "بالاستناد"
-    replace: "بالإستناد"
-    word: true
-  - trigger: "بالاستياء"
-    replace: "بالإستياء"
-    word: true
-  - trigger: "بالاستيقاظ"
-    replace: "بالإستيقاظ"
-    word: true
-  - trigger: "بالاستيلاء"
-    replace: "بالإستيلاء"
     word: true
   - trigger: "بالاسر"
     replace: "بالأسر"
@@ -9645,12 +6912,6 @@ matches:
     word: true
   - trigger: "بالاسطورة"
     replace: "بالأسطورة"
-    word: true
-  - trigger: "بالاسطول"
-    replace: "بالأسطول"
-    word: true
-  - trigger: "بالاسعاف"
-    replace: "بالإسعاف"
     word: true
   - trigger: "بالاسف"
     replace: "بالأسف"
@@ -9676,17 +6937,11 @@ matches:
   - trigger: "بالاسلوب"
     replace: "بالأسلوب"
     word: true
-  - trigger: "بالاسم"
-    replace: "بالإسم"
-    word: true
   - trigger: "بالاسماء"
     replace: "بالأسماء"
     word: true
   - trigger: "بالاسماك"
     replace: "بالأسماك"
-    word: true
-  - trigger: "بالاسمنت"
-    replace: "بالإسمنت"
     word: true
   - trigger: "بالاسنان"
     replace: "بالأسنان"
@@ -9696,9 +6951,6 @@ matches:
     word: true
   - trigger: "بالاسهم"
     replace: "بالأسهم"
-    word: true
-  - trigger: "بالاسوء"
-    replace: "بالأسوء"
     word: true
   - trigger: "بالاسواق"
     replace: "بالأسواق"
@@ -9712,9 +6964,6 @@ matches:
   - trigger: "بالاسي"
     replace: "بالأسي"
     word: true
-  - trigger: "بالاشارات"
-    replace: "بالإشارات"
-    word: true
   - trigger: "بالاشارة"
     replace: "بالإشارة"
     word: true
@@ -9726,12 +6975,6 @@ matches:
     word: true
   - trigger: "بالاشباح"
     replace: "بالأشباح"
-    word: true
-  - trigger: "بالاشتباك"
-    replace: "بالإشتباك"
-    word: true
-  - trigger: "بالاشتراك"
-    replace: "بالإشتراك"
     word: true
   - trigger: "بالاشجار"
     replace: "بالأشجار"
@@ -9759,9 +7002,6 @@ matches:
     word: true
   - trigger: "بالاشغال"
     replace: "بالأشغال"
-    word: true
-  - trigger: "بالاشمئزاز"
-    replace: "بالإشمئزاز"
     word: true
   - trigger: "بالاشهر"
     replace: "بالأشهر"
@@ -9829,9 +7069,6 @@ matches:
   - trigger: "بالاضرار"
     replace: "بالأضرار"
     word: true
-  - trigger: "بالاضطراب"
-    replace: "بالإضطراب"
-    word: true
   - trigger: "بالاضواء"
     replace: "بالأضواء"
     word: true
@@ -9856,14 +7093,8 @@ matches:
   - trigger: "بالاطفال"
     replace: "بالأطفال"
     word: true
-  - trigger: "بالاطلاع"
-    replace: "بالإطلاع"
-    word: true
   - trigger: "بالاطلاق"
     replace: "بالإطلاق"
-    word: true
-  - trigger: "بالاطمئنان"
-    replace: "بالإطمئنان"
     word: true
   - trigger: "بالاظافة"
     replace: "بالإظافة"
@@ -9871,38 +7102,11 @@ matches:
   - trigger: "بالاظافر"
     replace: "بالأظافر"
     word: true
-  - trigger: "بالاعتبار"
-    replace: "بالإعتبار"
-    word: true
-  - trigger: "بالاعتداء"
-    replace: "بالإعتداء"
-    word: true
-  - trigger: "بالاعتذار"
-    replace: "بالإعتذار"
-    word: true
-  - trigger: "بالاعتراف"
-    replace: "بالإعتراف"
-    word: true
-  - trigger: "بالاعتقاد"
-    replace: "بالإعتقاد"
-    word: true
-  - trigger: "بالاعتقال"
-    replace: "بالإعتقال"
-    word: true
-  - trigger: "بالاعتماد"
-    replace: "بالإعتماد"
-    word: true
-  - trigger: "بالاعتناء"
-    replace: "بالإعتناء"
-    word: true
   - trigger: "بالاعجاب"
     replace: "بالإعجاب"
     word: true
   - trigger: "بالاعداء"
     replace: "بالأعداء"
-    word: true
-  - trigger: "بالاعداد"
-    replace: "بالإعداد"
     word: true
   - trigger: "بالاعدام"
     replace: "بالإعدام"
@@ -9918,9 +7122,6 @@ matches:
     word: true
   - trigger: "بالاعضاء"
     replace: "بالأعضاء"
-    word: true
-  - trigger: "بالاعلام"
-    replace: "بالإعلام"
     word: true
   - trigger: "بالاعلان"
     replace: "بالإعلان"
@@ -9952,9 +7153,6 @@ matches:
   - trigger: "بالاغبياء"
     replace: "بالأغبياء"
     word: true
-  - trigger: "بالاغتصاب"
-    replace: "بالإغتصاب"
-    word: true
   - trigger: "بالاغراء"
     replace: "بالإغراء"
     word: true
@@ -9978,9 +7176,6 @@ matches:
     word: true
   - trigger: "بالافاعي"
     replace: "بالأفاعي"
-    word: true
-  - trigger: "بالافراج"
-    replace: "بالإفراج"
     word: true
   - trigger: "بالافصاح"
     replace: "بالإفصاح"
@@ -10009,20 +7204,8 @@ matches:
   - trigger: "بالافلام"
     replace: "بالأفلام"
     word: true
-  - trigger: "بالاقامة"
-    replace: "بالإقامة"
-    word: true
   - trigger: "بالاقامه"
     replace: "بالاقامة"
-    word: true
-  - trigger: "بالاقتحام"
-    replace: "بالإقتحام"
-    word: true
-  - trigger: "بالاقتراب"
-    replace: "بالإقتراب"
-    word: true
-  - trigger: "بالاقتصاد"
-    replace: "بالإقتصاد"
     word: true
   - trigger: "بالاقدام"
     replace: "بالأقدام"
@@ -10045,9 +7228,6 @@ matches:
   - trigger: "بالاكاذيب"
     replace: "بالأكاذيب"
     word: true
-  - trigger: "بالاكتئاب"
-    replace: "بالإكتئاب"
-    word: true
   - trigger: "بالاكثر"
     replace: "بالأكثر"
     word: true
@@ -10068,18 +7248,6 @@ matches:
     word: true
   - trigger: "بالالة"
     replace: "بالآلة"
-    word: true
-  - trigger: "بالالتحاق"
-    replace: "بالإلتحاق"
-    word: true
-  - trigger: "بالالتزام"
-    replace: "بالإلتزام"
-    word: true
-  - trigger: "بالالتفاف"
-    replace: "بالإلتفاف"
-    word: true
-  - trigger: "بالالتهاب"
-    replace: "بالإلتهاب"
     word: true
   - trigger: "بالالعاب"
     replace: "بالألعاب"
@@ -10111,9 +7279,6 @@ matches:
   - trigger: "بالالمانية"
     replace: "بالألمانية"
     word: true
-  - trigger: "بالاله"
-    replace: "بالإله"
-    word: true
   - trigger: "بالالهام"
     replace: "بالإلهام"
     word: true
@@ -10140,9 +7305,6 @@ matches:
     word: true
   - trigger: "بالامتعة"
     replace: "بالأمتعة"
-    word: true
-  - trigger: "بالامتنان"
-    replace: "بالإمتنان"
     word: true
   - trigger: "بالامر"
     replace: "بالأمر"
@@ -10204,9 +7366,6 @@ matches:
   - trigger: "بالاميرة"
     replace: "بالأميرة"
     word: true
-  - trigger: "بالان"
-    replace: "بالآن"
-    word: true
   - trigger: "بالانابيب"
     replace: "بالأنابيب"
     word: true
@@ -10228,80 +7387,14 @@ matches:
   - trigger: "بالانتاج"
     replace: "بالإنتاج"
     word: true
-  - trigger: "بالانتباه"
-    replace: "بالإنتباه"
-    word: true
-  - trigger: "بالانتحار"
-    replace: "بالإنتحار"
-    word: true
-  - trigger: "بالانتخابات"
-    replace: "بالإنتخابات"
-    word: true
-  - trigger: "بالانترنت"
-    replace: "بالإنترنت"
-    word: true
-  - trigger: "بالانتشار"
-    replace: "بالإنتشار"
-    word: true
-  - trigger: "بالانتصار"
-    replace: "بالإنتصار"
-    word: true
-  - trigger: "بالانتظار"
-    replace: "بالإنتظار"
-    word: true
-  - trigger: "بالانتعاش"
-    replace: "بالإنتعاش"
-    word: true
-  - trigger: "بالانتقال"
-    replace: "بالإنتقال"
-    word: true
-  - trigger: "بالانتقام"
-    replace: "بالإنتقام"
-    word: true
-  - trigger: "بالانتماء"
-    replace: "بالإنتماء"
-    word: true
-  - trigger: "بالانتهاء"
-    replace: "بالإنتهاء"
-    word: true
   - trigger: "بالانجاب"
     replace: "بالإنجاب"
     word: true
   - trigger: "بالانجاز"
     replace: "بالإنجاز"
     word: true
-  - trigger: "بالانجذاب"
-    replace: "بالإنجذاب"
-    word: true
-  - trigger: "بالانجليزي"
-    replace: "بالإنجليزي"
-    word: true
-  - trigger: "بالانجليزية"
-    replace: "بالإنجليزية"
-    word: true
-  - trigger: "بالانجليزيه"
-    replace: "بالإنجليزيه"
-    word: true
-  - trigger: "بالانجيل"
-    replace: "بالإنجيل"
-    word: true
   - trigger: "بالانحاء"
     replace: "بالأنحاء"
-    word: true
-  - trigger: "بالانحناء"
-    replace: "بالإنحناء"
-    word: true
-  - trigger: "بالانخفاض"
-    replace: "بالإنخفاض"
-    word: true
-  - trigger: "بالاندماج"
-    replace: "بالإندماج"
-    word: true
-  - trigger: "بالانزعاج"
-    replace: "بالإنزعاج"
-    word: true
-  - trigger: "بالانزلاق"
-    replace: "بالإنزلاق"
     word: true
   - trigger: "بالانسان"
     replace: "بالإنسان"
@@ -10312,21 +7405,6 @@ matches:
   - trigger: "بالانسة"
     replace: "بالآنسة"
     word: true
-  - trigger: "بالانسحاب"
-    replace: "بالإنسحاب"
-    word: true
-  - trigger: "بالانصات"
-    replace: "بالإنصات"
-    word: true
-  - trigger: "بالانصراف"
-    replace: "بالإنصراف"
-    word: true
-  - trigger: "بالانضمام"
-    replace: "بالإنضمام"
-    word: true
-  - trigger: "بالانطلاق"
-    replace: "بالإنطلاق"
-    word: true
   - trigger: "بالانظمة"
     replace: "بالأنظمة"
     word: true
@@ -10336,44 +7414,17 @@ matches:
   - trigger: "بالانف"
     replace: "بالأنف"
     word: true
-  - trigger: "بالانفاق"
-    replace: "بالأنفاق"
-    word: true
-  - trigger: "بالانفجار"
-    replace: "بالإنفجار"
-    word: true
-  - trigger: "بالانفصال"
-    replace: "بالإنفصال"
-    word: true
   - trigger: "بالانفصام"
     replace: "بالإنفصام"
     word: true
-  - trigger: "بالانفلونزا"
-    replace: "بالإنفلونزا"
-    word: true
-  - trigger: "بالانقراض"
-    replace: "بالإنقراض"
-    word: true
   - trigger: "بالانكار"
     replace: "بالإنكار"
-    word: true
-  - trigger: "بالانكليزية"
-    replace: "بالإنكليزية"
-    word: true
-  - trigger: "بالانهيار"
-    replace: "بالإنهيار"
     word: true
   - trigger: "بالاهانة"
     replace: "بالإهانة"
     word: true
   - trigger: "بالاهانه"
     replace: "بالاهانة"
-    word: true
-  - trigger: "بالاهتزاز"
-    replace: "بالإهتزاز"
-    word: true
-  - trigger: "بالاهتمام"
-    replace: "بالإهتمام"
     word: true
   - trigger: "بالاهداف"
     replace: "بالأهداف"
@@ -10414,9 +7465,6 @@ matches:
   - trigger: "بالاوكسجين"
     replace: "بالأوكسجين"
     word: true
-  - trigger: "بالاول"
-    replace: "بالأول"
-    word: true
   - trigger: "بالاولاد"
     replace: "بالأولاد"
     word: true
@@ -10435,17 +7483,11 @@ matches:
   - trigger: "بالايجار"
     replace: "بالإيجار"
     word: true
-  - trigger: "بالايدز"
-    replace: "بالإيدز"
-    word: true
   - trigger: "بالايدى"
     replace: "بالأيدى"
     word: true
   - trigger: "بالايدي"
     replace: "بالأيدي"
-    word: true
-  - trigger: "بالايس"
-    replace: "بالآيس"
     word: true
   - trigger: "بالايطالية"
     replace: "بالإيطالية"
@@ -10455,9 +7497,6 @@ matches:
     word: true
   - trigger: "بالايمان"
     replace: "بالإيمان"
-    word: true
-  - trigger: "بالايميل"
-    replace: "بالإيميل"
     word: true
   - trigger: "بالباحه"
     replace: "بالباحة"
@@ -10542,9 +7581,6 @@ matches:
     word: true
   - trigger: "بالتغطيه"
     replace: "بالتغطية"
-    word: true
-  - trigger: "بالتفاهه"
-    replace: "بالتفاهة"
     word: true
   - trigger: "بالتوراه"
     replace: "بالتوراة"
@@ -10810,9 +7846,6 @@ matches:
   - trigger: "بالشفره"
     replace: "بالشفرة"
     word: true
-  - trigger: "بالشكولاته"
-    replace: "بالشكولاتة"
-    word: true
   - trigger: "بالشهاده"
     replace: "بالشهادة"
     word: true
@@ -10821,9 +7854,6 @@ matches:
     word: true
   - trigger: "بالشيخوخه"
     replace: "بالشيخوخة"
-    word: true
-  - trigger: "بالشيكولاته"
-    replace: "بالشيكولاتة"
     word: true
   - trigger: "بالصاله"
     replace: "بالصالة"
@@ -10884,9 +7914,6 @@ matches:
     word: true
   - trigger: "بالعاطفه"
     replace: "بالعاطفة"
-    word: true
-  - trigger: "بالعافيه"
-    replace: "بالعافية"
     word: true
   - trigger: "بالعباره"
     replace: "بالعبارة"
@@ -11070,9 +8097,6 @@ matches:
     word: true
   - trigger: "بالمئه"
     replace: "بالمئة"
-    word: true
-  - trigger: "بالمائه"
-    replace: "بالمائة"
     word: true
   - trigger: "بالمبادره"
     replace: "بالمبادرة"
@@ -11272,9 +8296,6 @@ matches:
   - trigger: "بالمناوره"
     replace: "بالمناورة"
     word: true
-  - trigger: "بالمنتزه"
-    replace: "بالمنتزة"
-    word: true
   - trigger: "بالمنشفه"
     replace: "بالمنشفة"
     word: true
@@ -11298,9 +8319,6 @@ matches:
     word: true
   - trigger: "بالموهبه"
     replace: "بالموهبة"
-    word: true
-  - trigger: "بالمياه"
-    replace: "بالمياة"
     word: true
   - trigger: "بالميداليه"
     replace: "بالميدالية"
@@ -11650,9 +8668,6 @@ matches:
   - trigger: "بخطيئه"
     replace: "بخطيئة"
     word: true
-  - trigger: "بخمسمائه"
-    replace: "بخمسمائة"
-    word: true
   - trigger: "بخيانه"
     replace: "بخيانة"
     word: true
@@ -11685,9 +8700,6 @@ matches:
     word: true
   - trigger: "برائحه"
     replace: "برائحة"
-    word: true
-  - trigger: "برائه"
-    replace: "برائة"
     word: true
   - trigger: "برحابه"
     replace: "برحابة"
@@ -12010,9 +9022,6 @@ matches:
   - trigger: "بقذيفه"
     replace: "بقذيفة"
     word: true
-  - trigger: "بقرائه"
-    replace: "بقرائة"
-    word: true
   - trigger: "بقره"
     replace: "بقرة"
     word: true
@@ -12055,9 +9064,6 @@ matches:
   - trigger: "بكفاءه"
     replace: "بكفاءة"
     word: true
-  - trigger: "بكفائه"
-    replace: "بكفائة"
-    word: true
   - trigger: "بكفاله"
     replace: "بكفالة"
     word: true
@@ -12078,9 +9084,6 @@ matches:
     word: true
   - trigger: "بلذه"
     replace: "بلذة"
-    word: true
-  - trigger: "بلنسبه"
-    replace: "بلنسبة"
     word: true
   - trigger: "بلهجه"
     replace: "بلهجة"
@@ -12436,12 +9439,6 @@ matches:
   - trigger: "تبعيا"
     replace: "تبعياً"
     word: true
-  - trigger: "تتجه"
-    replace: "تتجة"
-    word: true
-  - trigger: "تجاه"
-    replace: "تجاة"
-    word: true
   - trigger: "تجربه"
     replace: "تجربة"
     word: true
@@ -12456,9 +9453,6 @@ matches:
     word: true
   - trigger: "تسائل"
     replace: "تساؤل"
-    word: true
-  - trigger: "تسعمائه"
-    replace: "تسعمائة"
     word: true
   - trigger: "تعاسه"
     replace: "تعاسة"
@@ -12481,9 +9475,6 @@ matches:
   - trigger: "تهويده"
     replace: "تهويدة"
     word: true
-  - trigger: "تواجه"
-    replace: "تواجة"
-    word: true
   - trigger: "توعيه"
     replace: "توعية"
     word: true
@@ -12502,9 +9493,6 @@ matches:
   - trigger: "ثلاثمئه"
     replace: "ثلاثمئة"
     word: true
-  - trigger: "ثلاثمائه"
-    replace: "ثلاثمائة"
-    word: true
   - trigger: "ثلاجه"
     replace: "ثلاجة"
     word: true
@@ -12513,9 +9501,6 @@ matches:
     word: true
   - trigger: "ثمانمئه"
     replace: "ثمانمئة"
-    word: true
-  - trigger: "ثمانمائه"
-    replace: "ثمانمائة"
     word: true
   - trigger: "جائزه"
     replace: "جائزة"
@@ -12667,9 +9652,6 @@ matches:
   - trigger: "خمسمئه"
     replace: "خمسمئة"
     word: true
-  - trigger: "خمسمائه"
-    replace: "خمسمائة"
-    word: true
   - trigger: "دائما"
     replace: "دائماً"
     word: true
@@ -12729,9 +9711,6 @@ matches:
     word: true
   - trigger: "رابعا"
     replace: "رابعاً"
-    word: true
-  - trigger: "ربعمائه"
-    replace: "ربعمائة"
     word: true
   - trigger: "رجاحه"
     replace: "رجاحة"
@@ -12814,14 +9793,8 @@ matches:
   - trigger: "سبعمئه"
     replace: "سبعمئة"
     word: true
-  - trigger: "سبعمائه"
-    replace: "سبعمائة"
-    word: true
   - trigger: "ستمئه"
     replace: "ستمئة"
-    word: true
-  - trigger: "ستمائه"
-    replace: "ستمائة"
     word: true
   - trigger: "سحليه"
     replace: "سحلية"
@@ -12923,9 +9896,6 @@ matches:
     replace: "شكراً جزيلاً"
   - trigger: "شكرا لك"
     replace: "شكراً لك"
-  - trigger: "شكولاته"
-    replace: "شكولاتة"
-    word: true
   - trigger: "شناعه"
     replace: "شناعة"
     word: true
@@ -12943,9 +9913,6 @@ matches:
     word: true
   - trigger: "شيخوخه"
     replace: "شيخوخة"
-    word: true
-  - trigger: "شيكولاته"
-    replace: "شيكولاتة"
     word: true
   - trigger: "صاغيه"
     replace: "صاغية"
@@ -13016,9 +9983,6 @@ matches:
   - trigger: "طبيعيا"
     replace: "طبيعياً"
     word: true
-  - trigger: "طرواده"
-    replace: "طروادة"
-    word: true
   - trigger: "طريقه"
     replace: "طريقة"
     word: true
@@ -13063,9 +10027,6 @@ matches:
     word: true
   - trigger: "عامة"
     replace: "عامةً"
-    word: true
-  - trigger: "عبائه"
-    replace: "عبائة"
     word: true
   - trigger: "عباقره"
     replace: "عباقرة"
@@ -13162,9 +10123,6 @@ matches:
     word: true
   - trigger: "فالآنسه"
     replace: "فالآنسة"
-    word: true
-  - trigger: "فالإجابه"
-    replace: "فالإجابة"
     word: true
   - trigger: "فالاجابة"
     replace: "فالإجابة"
@@ -13307,9 +10265,6 @@ matches:
   - trigger: "قرأن"
     replace: "قرآن"
     word: true
-  - trigger: "قرائه"
-    replace: "قرائة"
-    word: true
   - trigger: "قراصنه"
     replace: "قراصنة"
     word: true
@@ -13412,14 +10367,8 @@ matches:
   - trigger: "كاثدرائيه"
     replace: "كاثدرائية"
     word: true
-  - trigger: "كالآله"
-    replace: "كالآلة"
-    word: true
   - trigger: "كالأخوه"
     replace: "كالأخوة"
-    word: true
-  - trigger: "كالإخوه"
-    replace: "كالإخوة"
     word: true
   - trigger: "كالاب"
     replace: "كالأب"
@@ -13507,9 +10456,6 @@ matches:
     word: true
   - trigger: "كالاميرة"
     replace: "كالأميرة"
-    word: true
-  - trigger: "كالان"
-    replace: "كالآن"
     word: true
   - trigger: "كالانسان"
     replace: "كالإنسان"
@@ -13753,9 +10699,6 @@ matches:
     word: true
   - trigger: "كعلاوه"
     replace: "كعلاوة"
-    word: true
-  - trigger: "كفائه"
-    replace: "كفائة"
     word: true
   - trigger: "كفاله"
     replace: "كفالة"
@@ -14305,9 +11248,6 @@ matches:
   - trigger: "لسيطره"
     replace: "لسيطرة"
     word: true
-  - trigger: "لشبونه"
-    replace: "لشبونة"
-    word: true
   - trigger: "لشريحه"
     replace: "لشريحة"
     word: true
@@ -14629,9 +11569,6 @@ matches:
   - trigger: "للاستفاده"
     replace: "للاستفادة"
     word: true
-  - trigger: "للاسلحه"
-    replace: "للاسلحة"
-    word: true
   - trigger: "للاصابه"
     replace: "للاصابة"
     word: true
@@ -14808,9 +11745,6 @@ matches:
     word: true
   - trigger: "للحضانه"
     replace: "للحضانة"
-    word: true
-  - trigger: "للحضه"
-    replace: "للحضة"
     word: true
   - trigger: "للحقيبه"
     replace: "للحقيبة"
@@ -15280,9 +12214,6 @@ matches:
   - trigger: "للمائده"
     replace: "للمائدة"
     word: true
-  - trigger: "للمائه"
-    replace: "للمائة"
-    word: true
   - trigger: "للمارسه"
     replace: "للمارسة"
     word: true
@@ -15631,9 +12562,6 @@ matches:
   - trigger: "لمئه"
     replace: "لمئة"
     word: true
-  - trigger: "لمائه"
-    replace: "لمائة"
-    word: true
   - trigger: "لماكينه"
     replace: "لماكينة"
     word: true
@@ -15778,9 +12706,6 @@ matches:
   - trigger: "لمهاره"
     replace: "لمهارة"
     word: true
-  - trigger: "لمهله"
-    replace: "لمهلة"
-    word: true
   - trigger: "لمواساه"
     replace: "لمواساة"
     word: true
@@ -15866,9 +12791,6 @@ matches:
     replace: "ما شاء الله"
   - trigger: "ماشاءالله"
     replace: "ما شاء الله"
-    word: true
-  - trigger: "ماشابه"
-    replace: "ماشابة"
     word: true
   - trigger: "ماعلاقه"
     replace: "ماعلاقة"
@@ -15978,9 +12900,6 @@ matches:
   - trigger: "مساواه"
     replace: "مساواة"
     word: true
-  - trigger: "مستائه"
-    replace: "مستائة"
-    word: true
   - trigger: "مستسيده"
     replace: "مستسيدة"
     word: true
@@ -15995,9 +12914,6 @@ matches:
     word: true
   - trigger: "مشاء الله"
     replace: "ما شاء الله"
-  - trigger: "مشابه"
-    replace: "مشابة"
-    word: true
   - trigger: "مشاجره"
     replace: "مشاجرة"
     word: true
@@ -16031,9 +12947,6 @@ matches:
   - trigger: "مصياده"
     replace: "مصيادة"
     word: true
-  - trigger: "مضائه"
-    replace: "مضائة"
-    word: true
   - trigger: "مطارحه"
     replace: "مطارحة"
     word: true
@@ -16048,9 +12961,6 @@ matches:
     word: true
   - trigger: "معايده"
     replace: "معايدة"
-    word: true
-  - trigger: "معتوه"
-    replace: "معتوة"
     word: true
   - trigger: "معزاه"
     replace: "معزاة"
@@ -16087,9 +12997,6 @@ matches:
     word: true
   - trigger: "مقطوره"
     replace: "مقطورة"
-    word: true
-  - trigger: "مكافاه"
-    replace: "مكافاة"
     word: true
   - trigger: "مكتبه"
     replace: "مكتبة"
@@ -16265,9 +13172,6 @@ matches:
   - trigger: "وأدويه"
     replace: "وأدوية"
     word: true
-  - trigger: "وأربعمائه"
-    replace: "وأربعمائة"
-    word: true
   - trigger: "وأسلحه"
     replace: "وأسلحة"
     word: true
@@ -16379,41 +13283,11 @@ matches:
   - trigger: "والأوعيه"
     replace: "والأوعية"
     word: true
-  - trigger: "والإثاره"
-    replace: "والإثارة"
-    word: true
-  - trigger: "والإجابه"
-    replace: "والإجابة"
-    word: true
-  - trigger: "والإداره"
-    replace: "والإدارة"
-    word: true
-  - trigger: "والإراده"
-    replace: "والإرادة"
-    word: true
-  - trigger: "والإشاره"
-    replace: "والإشارة"
-    word: true
-  - trigger: "والإضاءه"
-    replace: "والإضاءة"
-    word: true
-  - trigger: "والإنسانيه"
-    replace: "والإنسانية"
-    word: true
-  - trigger: "والإهانه"
-    replace: "والإهانة"
-    word: true
   - trigger: "والاب"
     replace: "والأب"
     word: true
   - trigger: "والاباء"
     replace: "والآباء"
-    word: true
-  - trigger: "والابتزاز"
-    replace: "والإبتزاز"
-    word: true
-  - trigger: "والابتعاد"
-    replace: "والإبتعاد"
     word: true
   - trigger: "والابداع"
     replace: "والإبداع"
@@ -16427,26 +13301,14 @@ matches:
   - trigger: "والابقار"
     replace: "والأبقار"
     word: true
-  - trigger: "والابن"
-    replace: "والإبن"
-    word: true
   - trigger: "والابناء"
     replace: "والأبناء"
-    word: true
-  - trigger: "والابنة"
-    replace: "والإبنة"
     word: true
   - trigger: "والابواب"
     replace: "والأبواب"
     word: true
   - trigger: "والابيض"
     replace: "والأبيض"
-    word: true
-  - trigger: "والاتصال"
-    replace: "والإتصال"
-    word: true
-  - trigger: "والاتصالات"
-    replace: "والإتصالات"
     word: true
   - trigger: "والاثاث"
     replace: "والأثاث"
@@ -16460,35 +13322,17 @@ matches:
   - trigger: "والاثداء"
     replace: "والأثداء"
     word: true
-  - trigger: "والاثنان"
-    replace: "والإثنان"
-    word: true
   - trigger: "والاجابة"
     replace: "والإجابة"
     word: true
   - trigger: "والاجسام"
     replace: "والأجسام"
     word: true
-  - trigger: "والاجهاد"
-    replace: "والإجهاد"
-    word: true
   - trigger: "والاجهزة"
     replace: "والأجهزة"
     word: true
   - trigger: "والاجوبة"
     replace: "والأجوبة"
-    word: true
-  - trigger: "والاحباط"
-    replace: "والإحباط"
-    word: true
-  - trigger: "والاحترام"
-    replace: "والإحترام"
-    word: true
-  - trigger: "والاحتفال"
-    replace: "والإحتفال"
-    word: true
-  - trigger: "والاحتيال"
-    replace: "والإحتيال"
     word: true
   - trigger: "والاحجار"
     replace: "والأحجار"
@@ -16504,9 +13348,6 @@ matches:
     word: true
   - trigger: "والاحذية"
     replace: "والأحذية"
-    word: true
-  - trigger: "والاحساس"
-    replace: "والإحساس"
     word: true
   - trigger: "والاحشاء"
     replace: "والأحشاء"
@@ -16532,9 +13373,6 @@ matches:
   - trigger: "والاخت"
     replace: "والأخت"
     word: true
-  - trigger: "والاختباء"
-    replace: "والإختباء"
-    word: true
   - trigger: "والاخر"
     replace: "والآخر"
     word: true
@@ -16552,9 +13390,6 @@ matches:
     word: true
   - trigger: "والاخطاء"
     replace: "والأخطاء"
-    word: true
-  - trigger: "والاخلاص"
-    replace: "والإخلاص"
     word: true
   - trigger: "والاخلاق"
     replace: "والأخلاق"
@@ -16577,17 +13412,11 @@ matches:
   - trigger: "والادب"
     replace: "والأدب"
     word: true
-  - trigger: "والادعاء"
-    replace: "والإدعاء"
-    word: true
   - trigger: "والادلة"
     replace: "والأدلة"
     word: true
   - trigger: "والادهى"
     replace: "والأدهى"
-    word: true
-  - trigger: "والادوات"
-    replace: "والأدوات"
     word: true
   - trigger: "والادوية"
     replace: "والأدوية"
@@ -16649,9 +13478,6 @@ matches:
   - trigger: "والارواح"
     replace: "والأرواح"
     word: true
-  - trigger: "والازدهار"
-    replace: "والإزدهار"
-    word: true
   - trigger: "والازرق"
     replace: "والأزرق"
     word: true
@@ -16667,35 +13493,8 @@ matches:
   - trigger: "والاساطير"
     replace: "والأساطير"
     word: true
-  - trigger: "والاسبوع"
-    replace: "والأسبوع"
-    word: true
-  - trigger: "والاستخبارات"
-    replace: "والإستخبارات"
-    word: true
-  - trigger: "والاسترخاء"
-    replace: "والإسترخاء"
-    word: true
-  - trigger: "والاستعداد"
-    replace: "والإستعداد"
-    word: true
-  - trigger: "والاستقرار"
-    replace: "والإستقرار"
-    word: true
-  - trigger: "والاستماع"
-    replace: "والإستماع"
-    word: true
-  - trigger: "والاستمتاع"
-    replace: "والإستمتاع"
-    word: true
-  - trigger: "والاستمرار"
-    replace: "والإستمرار"
-    word: true
   - trigger: "والاسد"
     replace: "والأسد"
-    word: true
-  - trigger: "والاسرار"
-    replace: "والأسرار"
     word: true
   - trigger: "والاسرة"
     replace: "والأسرة"
@@ -16715,9 +13514,6 @@ matches:
   - trigger: "والاسلوب"
     replace: "والأسلوب"
     word: true
-  - trigger: "والاسم"
-    replace: "والإسم"
-    word: true
   - trigger: "والاسماء"
     replace: "والأسماء"
     word: true
@@ -16727,20 +13523,11 @@ matches:
   - trigger: "والاسنان"
     replace: "والأسنان"
     word: true
-  - trigger: "والاسهم"
-    replace: "والأسهم"
-    word: true
-  - trigger: "والاسوء"
-    replace: "والأسوء"
-    word: true
   - trigger: "والاسود"
     replace: "والأسود"
     word: true
   - trigger: "والاسى"
     replace: "والأسى"
-    word: true
-  - trigger: "والاشارة"
-    replace: "والإشارة"
     word: true
   - trigger: "والاشباح"
     replace: "والأشباح"
@@ -16762,9 +13549,6 @@ matches:
     word: true
   - trigger: "والاشكال"
     replace: "والأشكال"
-    word: true
-  - trigger: "والاشياء"
-    replace: "والأشياء"
     word: true
   - trigger: "والاصابات"
     replace: "والإصابات"
@@ -16808,23 +13592,8 @@ matches:
   - trigger: "والاطفال"
     replace: "والأطفال"
     word: true
-  - trigger: "والاطمئنان"
-    replace: "والإطمئنان"
-    word: true
   - trigger: "والاظافر"
     replace: "والأظافر"
-    word: true
-  - trigger: "والاعتداء"
-    replace: "والإعتداء"
-    word: true
-  - trigger: "والاعتذار"
-    replace: "والإعتذار"
-    word: true
-  - trigger: "والاعتراف"
-    replace: "والإعتراف"
-    word: true
-  - trigger: "والاعتناء"
-    replace: "والإعتناء"
     word: true
   - trigger: "والاعجاب"
     replace: "والإعجاب"
@@ -16841,9 +13610,6 @@ matches:
   - trigger: "والاعضاء"
     replace: "والأعضاء"
     word: true
-  - trigger: "والاعلام"
-    replace: "والإعلام"
-    word: true
   - trigger: "والاعلان"
     replace: "والإعلان"
     word: true
@@ -16855,9 +13621,6 @@ matches:
     word: true
   - trigger: "والاغاني"
     replace: "والأغاني"
-    word: true
-  - trigger: "والاغتصاب"
-    replace: "والإغتصاب"
     word: true
   - trigger: "والاغراض"
     replace: "والأغراض"
@@ -16928,9 +13691,6 @@ matches:
   - trigger: "والالة"
     replace: "والآلة"
     word: true
-  - trigger: "والالتزام"
-    replace: "والإلتزام"
-    word: true
   - trigger: "والالعاب"
     replace: "والألعاب"
     word: true
@@ -16945,9 +13705,6 @@ matches:
     word: true
   - trigger: "والالمانية"
     replace: "والألمانية"
-    word: true
-  - trigger: "والاله"
-    replace: "والإله"
     word: true
   - trigger: "والالهة"
     replace: "والآلهة"
@@ -16970,12 +13727,6 @@ matches:
   - trigger: "والامان"
     replace: "والأمان"
     word: true
-  - trigger: "والامبراطور"
-    replace: "والإمبراطور"
-    word: true
-  - trigger: "والامدادات"
-    replace: "والإمدادات"
-    word: true
   - trigger: "والامر"
     replace: "والأمر"
     word: true
@@ -16991,17 +13742,11 @@ matches:
   - trigger: "والامساك"
     replace: "والإمساك"
     word: true
-  - trigger: "والامطار"
-    replace: "والأمطار"
-    word: true
   - trigger: "والامعاء"
     replace: "والأمعاء"
     word: true
   - trigger: "والامل"
     replace: "والأمل"
-    word: true
-  - trigger: "والامم"
-    replace: "والأمم"
     word: true
   - trigger: "والامن"
     replace: "والأمن"
@@ -17045,38 +13790,17 @@ matches:
   - trigger: "والانانية"
     replace: "والأنانية"
     word: true
-  - trigger: "والانترنت"
-    replace: "والإنترنت"
-    word: true
-  - trigger: "والانتظار"
-    replace: "والإنتظار"
-    word: true
-  - trigger: "والانتقال"
-    replace: "والإنتقال"
-    word: true
-  - trigger: "والانتقام"
-    replace: "والإنتقام"
-    word: true
   - trigger: "والانثى"
     replace: "والأنثى"
     word: true
   - trigger: "والانسان"
     replace: "والإنسان"
     word: true
-  - trigger: "والانسانية"
-    replace: "والإنسانية"
-    word: true
   - trigger: "والانسة"
     replace: "والآنسة"
     word: true
   - trigger: "والانسجة"
     replace: "والأنسجة"
-    word: true
-  - trigger: "والانضباط"
-    replace: "والإنضباط"
-    word: true
-  - trigger: "والانضمام"
-    replace: "والإنضمام"
     word: true
   - trigger: "والانظمة"
     replace: "والأنظمة"
@@ -17098,9 +13822,6 @@ matches:
     word: true
   - trigger: "والاهانة"
     replace: "والإهانة"
-    word: true
-  - trigger: "والاهتمام"
-    replace: "والإهتمام"
     word: true
   - trigger: "والاهم"
     replace: "والأهم"
@@ -17143,12 +13864,6 @@ matches:
     word: true
   - trigger: "والايدي"
     replace: "والأيدي"
-    word: true
-  - trigger: "والايس"
-    replace: "والآيس"
-    word: true
-  - trigger: "والايمان"
-    replace: "والإيمان"
     word: true
   - trigger: "والبارحه"
     replace: "والبارحة"
@@ -17377,9 +14092,6 @@ matches:
     word: true
   - trigger: "والشهوه"
     replace: "والشهوة"
-    word: true
-  - trigger: "والشوكولاته"
-    replace: "والشوكولاتة"
     word: true
   - trigger: "والصحافه"
     replace: "والصحافة"
@@ -17660,26 +14372,17 @@ matches:
   - trigger: "وبالأضافه"
     replace: "وبالأضافة"
     word: true
-  - trigger: "وبالإضافه"
-    replace: "وبالإضافة"
-    word: true
   - trigger: "وبالاحرى"
     replace: "وبالأحرى"
     word: true
   - trigger: "وبالاخص"
     replace: "وبالأخص"
     word: true
-  - trigger: "وبالاضافة"
-    replace: "وبالإضافة"
-    word: true
   - trigger: "وبالاضافه"
     replace: "وبالاضافة"
     word: true
   - trigger: "وبالامس"
     replace: "وبالأمس"
-    word: true
-  - trigger: "وبالحقيقه"
-    replace: "وبالحقيقة"
     word: true
   - trigger: "وبالصدفه"
     replace: "وبالصدفة"
@@ -17762,17 +14465,11 @@ matches:
   - trigger: "وتحيه"
     replace: "وتحية"
     word: true
-  - trigger: "وتسعمائه"
-    replace: "وتسعمائة"
-    word: true
   - trigger: "وثروه"
     replace: "وثروة"
     word: true
   - trigger: "وثقافه"
     replace: "وثقافة"
-    word: true
-  - trigger: "وثمانمائه"
-    replace: "وثمانمائة"
     word: true
   - trigger: "وجائزه"
     replace: "وجائزة"
@@ -17812,9 +14509,6 @@ matches:
     word: true
   - trigger: "وخساره"
     replace: "وخسارة"
-    word: true
-  - trigger: "وخمسمائه"
-    replace: "وخمسمائة"
     word: true
   - trigger: "وخيانه"
     replace: "وخيانة"
@@ -17857,12 +14551,6 @@ matches:
     word: true
   - trigger: "وزياره"
     replace: "وزيارة"
-    word: true
-  - trigger: "وسبعمائه"
-    replace: "وسبعمائة"
-    word: true
-  - trigger: "وستمائه"
-    replace: "وستمائة"
     word: true
   - trigger: "وسعاده"
     replace: "وسعادة"
@@ -17950,9 +14638,6 @@ matches:
     word: true
   - trigger: "وفتره"
     replace: "وفترة"
-    word: true
-  - trigger: "وفجاه"
-    replace: "وفجاة"
     word: true
   - trigger: "وفرشاه"
     replace: "وفرشاة"
@@ -18050,9 +14735,6 @@ matches:
   - trigger: "ومئه"
     replace: "ومئة"
     word: true
-  - trigger: "ومائه"
-    replace: "ومائة"
-    word: true
   - trigger: "وماعلاقه"
     replace: "وماعلاقة"
     word: true
@@ -18143,9 +14825,6 @@ matches:
   - trigger: "يافطه"
     replace: "يافطة"
     word: true
-  - trigger: "يالروعه"
-    replace: "يالروعة"
-    word: true
   - trigger: "يالسخريه"
     replace: "يالسخرية"
     word: true
@@ -18158,9 +14837,6 @@ matches:
   - trigger: "ياللسخريه"
     replace: "ياللسخرية"
     word: true
-  - trigger: "ياللعنه"
-    replace: "ياللعنة"
-    word: true
   - trigger: "ياللغرابه"
     replace: "ياللغرابة"
     word: true
@@ -18170,14 +14846,8 @@ matches:
   - trigger: "يبدوا"
     replace: "يبدو"
     word: true
-  - trigger: "يتجه"
-    replace: "يتجة"
-    word: true
   - trigger: "يدويا"
     replace: "يدوياً"
-    word: true
-  - trigger: "يواجه"
-    replace: "يواجة"
     word: true
   - trigger: "يوميا"
     replace: "يومياً"
