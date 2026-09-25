@@ -1,6 +1,6 @@
 # Espanso Arabic Typos (misspell-ar)
 
-An official [Espanso](https://espanso.org/) package designed to automatically fix common Arabic spelling and grammar mistakes on the fly, saving you time and ensuring professional text formatting.
+An [Espanso](https://espanso.org/) package designed to automatically fix common Arabic spelling and grammar mistakes on the fly, saving you time and ensuring professional text formatting.
 
 Unlike standard spell-checkers that require you to click and correct, `misspell-ar` operates instantly in the background, auto-correcting your text the millisecond you press the spacebar.
 
@@ -9,7 +9,6 @@ Unlike standard spell-checkers that require you to click and correct, `misspell-
 Make sure you have Espanso installed on your system. Then, open your terminal and run the following command:
 
     espanso install misspell-ar
-    espanso restart
 
 ## ✨ Features & Corrections
 
@@ -43,17 +42,17 @@ There is no configuration required. Once installed and restarted, Espanso will q
 
 Arabic is a rich and complex language, and this dictionary is always growing! If you notice a common typo that is missing, contributions are highly encouraged.
 
-To add a new word:
-1. Fork the [Espanso Hub repository](https://github.com/espanso/hub).
-2. Navigate to `packages/misspell-ar/`.
-3. Open the `package.yml` file for the latest version.
-4. Add your new match following this exact YAML format:
+To add a new word, open a pull request against the [source repository](https://github.com/hosam00/misspell-ar) (the Hub package is generated from it):
+
+1. Fork [hosam00/misspell-ar](https://github.com/hosam00/misspell-ar).
+2. Edit `scripts/gen.py` (or the curated list it reads) and regenerate, or edit `packages/misspell-ar/0.1.0/package.yml` directly for one-off additions.
+3. Add your match following this exact YAML format:
    ```yaml
      - trigger: "الكلمة_الخطأ"
        replace: "الكلمة_الصحيحة"
        word: true
    ```
-5. Submit a Pull Request!
+4. Submit a Pull Request!
 
 *Note: Please ensure new additions are unambiguous and do not accidentally overwrite valid words.*
 
